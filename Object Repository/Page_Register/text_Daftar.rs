@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>strong_Masuk</name>
+   <name>text_Daftar</name>
    <tag></tag>
-   <elementGuidId>8529339e-082d-43ae-b530-aa4e55dd3f46</elementGuidId>
+   <elementGuidId>43b8dcca-f040-49fd-9e55-cd60c1a22542</elementGuidId>
    <selectorCollection>
-      <entry>
-         <key>XPATH</key>
-         <value>//div[@id='root']/div/div/div[2]/form/h2/strong</value>
-      </entry>
       <entry>
          <key>CSS</key>
          <value>strong</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div/div/div[2]/form/h2/strong</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,15 +22,15 @@
       <name>tag</name>
       <type>Main</type>
       <value>strong</value>
-      <webElementGuid>b6013390-e7ba-47d2-9a66-14510114db8d</webElementGuid>
+      <webElementGuid>0359497b-1af2-4182-9100-5bcf320fce9a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Masuk</value>
-      <webElementGuid>da53583f-0af8-400a-b6c9-20396afa40bc</webElementGuid>
+      <value>Daftar</value>
+      <webElementGuid>cbefdfbe-06f1-49da-b28e-21038d00891e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +38,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;root&quot;)/div[@class=&quot;App&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-sm-6 form-register&quot;]/form[1]/h2[1]/strong[1]</value>
-      <webElementGuid>08f7d229-d22a-4916-82b2-6b92c2efd494</webElementGuid>
+      <webElementGuid>20d8779a-3b39-43e4-859a-789605634378</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -46,7 +46,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='root']/div/div/div[2]/form/h2/strong</value>
-      <webElementGuid>582e9da1-6be0-41e2-80a3-8c9167892cf3</webElementGuid>
+      <webElementGuid>1af9bf1e-39fc-477a-84f1-d76b79ffda9e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -54,31 +54,31 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='SecondHand.'])[1]/following::strong[1]</value>
-      <webElementGuid>7e877ba9-6586-4792-adea-08e9de030361</webElementGuid>
+      <webElementGuid>de5ed472-9998-458c-a0a8-3235385459fc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Email'])[1]/preceding::strong[1]</value>
-      <webElementGuid>94405eb8-8254-43f1-be9f-4d6debc8918b</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Nama'])[1]/preceding::strong[1]</value>
+      <webElementGuid>dd33fc69-0ed7-4b76-b25a-ea009d36f012</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Password'])[1]/preceding::strong[1]</value>
-      <webElementGuid>d226f0e8-e478-4b03-b077-ad8550bbfb29</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Email address'])[1]/preceding::strong[1]</value>
+      <webElementGuid>d222a7e4-4aea-46b4-b2f3-da00779337d4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Masuk']/parent::*</value>
-      <webElementGuid>ae857e70-1d08-48b8-9f76-e3511189b6f6</webElementGuid>
+      <value>//*/text()[normalize-space(.)='Daftar']/parent::*</value>
+      <webElementGuid>1a9e8673-6d6f-45ad-bdee-1769f46239b1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,14 +86,14 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//strong</value>
-      <webElementGuid>1b554910-1e3c-43e2-9add-c1ca51499c2f</webElementGuid>
+      <webElementGuid>db1e9c30-7754-4f67-bfa9-3ab30a4cc482</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//strong[(text() = 'Masuk' or . = 'Masuk')]</value>
-      <webElementGuid>c024a8cf-3fdf-4cf3-9cea-e666f8c10c22</webElementGuid>
+      <value>//strong[(text() = 'Daftar' or . = 'Daftar')]</value>
+      <webElementGuid>9af63b15-3cb6-4bbc-a8d5-71feac9a4a91</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

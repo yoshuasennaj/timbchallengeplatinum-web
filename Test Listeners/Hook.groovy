@@ -23,12 +23,13 @@ import com.kms.katalon.core.context.TestCaseContext
 import com.kms.katalon.core.context.TestSuiteContext
 import com.kms.katalon.core.util.KeywordUtil
 
+
 class Hook {
-		
+	
 	def openBrowser() {
 		WebUI.openBrowser('');
 		WebUI.maximizeWindow();
-		WebUI.navigateToUrl('https://deployed-five.vercel.app/');
+		WebUI.navigateToUrl('https://www.saucedemo.com/');
 	}
 		
 	def closeBrowser() {
@@ -59,4 +60,5 @@ class Hook {
 		this.closeBrowser()
 	}
 }
+
 	
