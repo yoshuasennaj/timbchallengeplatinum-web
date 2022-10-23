@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>text_Email</name>
+   <name>text_Belum punya akun</name>
    <tag></tag>
-   <elementGuidId>41f05dab-8527-4ceb-823d-4f384f6dc8fb</elementGuidId>
+   <elementGuidId>c12f9092-f0e6-4704-91f1-243d894fe64e</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>label</value>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div/div/div[2]/form/p/span</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='root']/div/div/div[2]/form/div/label</value>
+         <key>CSS</key>
+         <value>span</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,95 +21,87 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>label</value>
-      <webElementGuid>8ca9d9ff-a550-43b9-a9af-828864a10a6e</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>for</name>
-      <type>Main</type>
-      <value>exampleInputEmail1 </value>
-      <webElementGuid>66032a09-851b-4960-96e1-3a48668e014f</webElementGuid>
+      <value>span</value>
+      <webElementGuid>62858899-730d-4aa9-b0b2-6b92ad630842</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Email</value>
-      <webElementGuid>667ef702-1301-4a01-afde-ef2499f89f62</webElementGuid>
+      <value>Belum punya akun?</value>
+      <webElementGuid>5be658da-96d2-41d3-8374-e43a688f0cba</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;root&quot;)/div[@class=&quot;App&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-sm-6 form-register&quot;]/form[1]/div[@class=&quot;form-group&quot;]/label[1]</value>
-      <webElementGuid>8070cd7d-ba90-4fd3-9d73-36ed24ee0c34</webElementGuid>
+      <value>id(&quot;root&quot;)/div[@class=&quot;App&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-sm-6 form-register&quot;]/form[1]/p[@class=&quot;mt-4 text-center cta&quot;]/span[1]</value>
+      <webElementGuid>af5228e9-98c0-4a64-a6b2-553ee1d09ca1</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='root']/div/div/div[2]/form/div/label</value>
-      <webElementGuid>8d7d0553-05d2-462e-825f-521f181e515f</webElementGuid>
+      <value>//div[@id='root']/div/div/div[2]/form/p/span</value>
+      <webElementGuid>439ac505-3061-418e-a9b7-1bdba5e4252d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Masuk'])[1]/following::label[1]</value>
-      <webElementGuid>9711e8cd-f300-413b-92c2-089b853e0e49</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Masuk'])[2]/following::span[1]</value>
+      <webElementGuid>9b4ed305-c19c-4033-89e9-dcb0efb4b733</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='SecondHand.'])[1]/following::label[1]</value>
-      <webElementGuid>58216a9e-5793-49a7-af5d-350de7d6caa9</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Password'])[1]/following::span[1]</value>
+      <webElementGuid>9843d9e2-a6c5-4060-96c2-181bfb8d1ee7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Password'])[1]/preceding::label[1]</value>
-      <webElementGuid>e6e14834-8fe2-4796-8c02-1a03d83cfeae</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Daftar di sini'])[1]/preceding::span[1]</value>
+      <webElementGuid>ab4f2cc5-e6a2-403a-a7d4-4c0abd8b7b0f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Masuk'])[2]/preceding::label[2]</value>
-      <webElementGuid>d6395efc-e6a3-4aec-8ddd-131383bf860c</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Capture object:'])[1]/preceding::span[1]</value>
+      <webElementGuid>bd158b51-d05a-48ba-a5d4-8d473a39162f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Email']/parent::*</value>
-      <webElementGuid>99c0c172-9b13-48b8-ba77-612033a908bc</webElementGuid>
+      <value>//*/text()[normalize-space(.)='Belum punya akun?']/parent::*</value>
+      <webElementGuid>c8b21d8f-a165-484e-94cf-37c9f2b71097</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//label</value>
-      <webElementGuid>319d1cff-7828-4e99-a74a-dc77632218a6</webElementGuid>
+      <value>//span</value>
+      <webElementGuid>5bf254bd-639f-487e-a95f-112be912c785</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//label[(text() = 'Email' or . = 'Email')]</value>
-      <webElementGuid>45c0e223-e2a4-435f-8db1-16c5199324f4</webElementGuid>
+      <value>//span[(text() = 'Belum punya akun?' or . = 'Belum punya akun?')]</value>
+      <webElementGuid>5058c4c5-d41e-401d-9f5c-5c3fb7c95b95</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

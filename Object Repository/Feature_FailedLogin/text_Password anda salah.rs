@@ -6,12 +6,12 @@
    <elementGuidId>24586975-2647-4d73-ba42-3019e3dfeff3</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>div.alert.alert-danger.alert-dismissible.fade.show</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//div[@id='root']/div/div/div[2]/form/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.alert.alert-danger.alert-dismissible.fade.show</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
