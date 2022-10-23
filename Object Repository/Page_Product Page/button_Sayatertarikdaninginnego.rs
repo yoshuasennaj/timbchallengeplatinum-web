@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_Saya tertarik dan ingin nego</name>
+   <name>button_Sayatertarikdaninginnego</name>
    <tag></tag>
    <elementGuidId>2fd8db73-4ccf-45a5-81f1-7f71f053e014</elementGuidId>
    <selectorCollection>

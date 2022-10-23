@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>link_Daftar di sini</name>
+   <name>link_Daftardisini</name>
    <tag></tag>
-   <elementGuidId>bd22b3a9-4f68-4e7d-a437-9e4a56b69285</elementGuidId>
+   <elementGuidId>b4ac95e4-e319-4426-bfa4-8a55d4d44a39</elementGuidId>
    <selectorCollection>
-      <entry>
-         <key>XPATH</key>
-         <value>//div[@id='root']/div/div/div[2]/form/p/a</value>
-      </entry>
       <entry>
          <key>CSS</key>
          <value>a</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div/div/div[2]/form/p/a</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>1c5e35b3-87a8-43c1-bcf2-c2e0237d4140</webElementGuid>
+      <webElementGuid>eee1fdb7-34b9-4d0a-8735-143bf85a316b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +30,7 @@
       <name>href</name>
       <type>Main</type>
       <value>/signup</value>
-      <webElementGuid>58b3624c-f177-43bc-861f-5662d813ad6e</webElementGuid>
+      <webElementGuid>6d369185-5af5-45d4-9527-38e5a89c662c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Daftar di sini</value>
-      <webElementGuid>05c0ccd3-4960-4220-b790-8dab624e2c5f</webElementGuid>
+      <webElementGuid>cb85d62e-b9b8-41bb-aec2-958b0e5f7ad4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +46,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;root&quot;)/div[@class=&quot;App&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-sm-6 form-register&quot;]/form[1]/p[@class=&quot;mt-4 text-center cta&quot;]/a[1]</value>
-      <webElementGuid>d0e2b87c-af16-4fad-838b-12a24bb6c020</webElementGuid>
+      <webElementGuid>aab4e803-bad0-4b4b-b9ee-4397ffaa6c7c</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -54,7 +54,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='root']/div/div/div[2]/form/p/a</value>
-      <webElementGuid>3aa93460-833f-44ca-90c3-8bac5dd16027</webElementGuid>
+      <webElementGuid>e21627a6-a939-446d-be70-3eead73588b1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>//a[contains(text(),'Daftar di sini')]</value>
-      <webElementGuid>e951651e-e329-4e6c-81d8-f0fad7de94c0</webElementGuid>
+      <webElementGuid>d2985687-e492-4b52-9b45-87c0b097f608</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Belum punya akun?'])[1]/following::a[1]</value>
-      <webElementGuid>6e07bb41-be8d-4af6-816b-b76beb02473c</webElementGuid>
+      <webElementGuid>6065230c-1a53-414a-991b-70915024b493</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Masuk'])[2]/following::a[1]</value>
-      <webElementGuid>ffaf2294-898a-441c-a63e-fcb93260e73c</webElementGuid>
+      <webElementGuid>4f47665f-bc23-40ab-aac8-484908844b49</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +86,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Capture object:'])[1]/preceding::a[1]</value>
-      <webElementGuid>01ae9a57-c772-411f-96f8-764817db8155</webElementGuid>
+      <webElementGuid>635d6cb7-d062-4117-94cc-67065477616a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +94,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Alt'])[1]/preceding::a[1]</value>
-      <webElementGuid>efe4ee65-fafc-4d44-a5cf-897eec8c1240</webElementGuid>
+      <webElementGuid>0f2c08dc-e2ed-4628-b1d3-b38633ebdcd5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +102,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Daftar di sini']/parent::*</value>
-      <webElementGuid>d5583a5b-826d-4cc6-aaf3-2e669c83d9df</webElementGuid>
+      <webElementGuid>3d7e1177-6325-463d-9e4d-1d7c5833cc02</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,7 +110,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>//a[contains(@href, '/signup')]</value>
-      <webElementGuid>a6173f0b-57c5-4d56-9548-5289236e7dbb</webElementGuid>
+      <webElementGuid>9c14ce26-d103-499e-8d8e-3bf557597173</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -118,7 +118,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//a</value>
-      <webElementGuid>8b144904-44b5-4dd4-88ad-1040aeef51bd</webElementGuid>
+      <webElementGuid>a82eba86-30f0-4747-8d3b-9d565cc38a47</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -126,6 +126,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[@href = '/signup' and (text() = 'Daftar di sini' or . = 'Daftar di sini')]</value>
-      <webElementGuid>10d4629f-dff8-4e41-998b-945effb96aea</webElementGuid>
+      <webElementGuid>656f10f8-fa58-4965-a63b-9a1a5a3aee56</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

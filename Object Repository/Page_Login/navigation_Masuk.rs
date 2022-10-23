@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>btn_Masuk</name>
+   <name>navigation_Masuk</name>
    <tag></tag>
    <elementGuidId>a8831e3d-17ff-4632-9fe3-bb1046d4b82e</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='navbarText']/ul/li</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>li.nav-item-login</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='navbarText']/ul/li</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
