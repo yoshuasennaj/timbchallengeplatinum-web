@@ -29,7 +29,7 @@ class Hook {
 	def openBrowser() {
 		WebUI.openBrowser('');
 		WebUI.maximizeWindow();
-		WebUI.navigateToUrl('https://www.saucedemo.com/');
+		WebUI.navigateToUrl('https://deployed-five.vercel.app/');
 	}
 		
 	def closeBrowser() {
