@@ -17,9 +17,5 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('StepDefinition/Feature Login/LOGIN001- Login With Valid Email and Password'), [:], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.callTestCase(findTestCase('Pages/SearchCategory/Category Hoby'), [:], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.callTestCase(findTestCase('Pages/SearchCategory/Verify Content Hoby'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('Page_Search/button_Baju'))
 
