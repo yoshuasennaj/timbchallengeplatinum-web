@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Input Email Address</name>
+   <name>Verify Email</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>6302fc60-25b9-4fd3-a8b0-e82e5cb4e27e</testCaseGuid>
+   <testCaseGuid>ca45cdf9-d3a9-4fa9-ada7-7dcb979fdf57</testCaseGuid>
 </TestCaseEntity>

@@ -17,5 +17,13 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.sendKeys(findTestObject('Page_Register/input_Password'), password)
+WebUI.verifyElementVisible(findTestObject('Page_Register/img_SecondHand'))
+
+WebUI.verifyElementVisible(findTestObject('Page_Register/label_Nama'))
+
+WebUI.verifyElementVisible(findTestObject('Page_Register/label_Email'))
+
+WebUI.verifyElementVisible(findTestObject('Page_Register/label_Password'))
+
+WebUI.verifyElementVisible(findTestObject('Page_Register/text_Daftar'))
 

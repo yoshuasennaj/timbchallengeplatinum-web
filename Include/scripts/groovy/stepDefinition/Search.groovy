@@ -62,7 +62,7 @@ class Search {
 
 	@Then("User click hoby button")
 	public void user_click_hoby_button() {
-	WebUI.callTestCase(findTestCase('Pages/SearchCategory/Category Hoby'), [:], FailureHandling.STOP_ON_FAILURE)
+		WebUI.callTestCase(findTestCase('Pages/SearchCategory/Category Hoby'), [:], FailureHandling.STOP_ON_FAILURE)
 	}
 
 	@Then("User verify content product donut")
@@ -96,7 +96,8 @@ class Search {
 	}
 
 	@Then("User verify content product handuk")
-	public void user_verify_content_product_handuk() {WebUI.verifyElementVisible(findTestObject('Page_Search/product_handuk'))
+	public void user_verify_content_product_handuk() {
+		WebUI.verifyElementVisible(findTestObject('Page_Search/product_handuk'))
 	}
 
 	@Then("User click elektronik button")
