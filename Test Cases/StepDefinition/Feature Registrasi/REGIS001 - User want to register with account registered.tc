@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>REGIS001 - User want to register with account registered</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>cf53d617-a78b-4389-ad42-1fbab89a1d4e</testCaseGuid>
+</TestCaseEntity>

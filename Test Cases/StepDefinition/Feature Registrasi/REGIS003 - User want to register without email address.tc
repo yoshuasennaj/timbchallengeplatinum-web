@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>REGIS003 - User want to register without email address</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c3adb0bd-6016-4d46-b822-86ff3dd9fd37</testCaseGuid>
+</TestCaseEntity>
