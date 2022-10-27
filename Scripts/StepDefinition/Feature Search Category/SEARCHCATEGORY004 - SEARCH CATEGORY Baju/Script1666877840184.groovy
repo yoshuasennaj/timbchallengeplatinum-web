@@ -17,7 +17,9 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.verifyElementVisible(findTestObject('Page_Search/product_tesla'))
+WebUI.callTestCase(findTestCase('StepDefinition/Feature Login/LOGIN001- Login With Valid Email and Password'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyElementVisible(findTestObject('Page_Search/product_hyundai'))
+WebUI.callTestCase(findTestCase('Pages/SearchCategory/Category Baju'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('Pages/SearchCategory/Verify Content Baju'), [:], FailureHandling.STOP_ON_FAILURE)
 
