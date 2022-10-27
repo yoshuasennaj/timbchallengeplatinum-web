@@ -47,87 +47,79 @@ import cucumber.api.java.en.When
 class Search {
 	@Then("User click semua button")
 	public void user_click_semua_button() {
+		WebUI.callTestCase(findTestCase('Pages/SearchCategory/Category Semua'), [:], FailureHandling.STOP_ON_FAILURE)
+	}
 
-		}
-	
 	@Then("User verify content donut")
 	public void user_verify_content_donut() {
-
+		WebUI.verifyElementVisible(findTestObject('Page_Search/product_donut'))
 	}
-	
+
 	@Then("User verify content tesla")
 	public void user_verify_content_tesla() {
-		
-	}
-	
-	@Then("User click hoby button")
-	public void user_click_hoby_button() {
-		
-	}
-	
-	@Then("User verify content product donut")
-	public void user_verify_content_product_donut() {
-		
-	}
-	
-	@Then("User verify content product rtx")
-	public void user_verify_content_product_rtx() {
-		
-	}
-	
-	@Then("User verify content product tesla")
-	public void user_verify_content_product_tesla() {
-		
-	}
-	
-	@Then("User verify content product hyundai")
-	public void user_verify_content_product_hyundai() {
-		
-	}
-	
-	@Then("User click baju button")
-	public void user_click_baju_button() {
-		
-	}
-	
-	@Then("User verify content product gucci")
-	public void user_verify_content_product_gucci() {
-		
-	}
-	
-	@Then("User verify content product handuk")
-	public void user_verify_content_product_handuk() {
-		
-	}
-	
-	@Then("User click elektronik button")
-	public void user_click_elektronik_button() {
-		
-	}
-	
-	@Then("User verify content product iphone{int}")
-	public void user_verify_content_product_iphone(Integer int1) {
-		
-	}
-	
-	@Then("User verify content product realme")
-	public void user_verify_content_product_realme() {
-		
-	}
-	
-	@Then("User click kesehatan button")
-	public void user_click_kesehatan_button() {
-		
-	}
-	
-	@Then("User verify content product susu")
-	public void user_verify_content_product_susu() {
-		
-	}
-	
-	@Then("User verify content product vaseline")
-	public void user_verify_content_product_vaseline() {
-		
+		WebUI.verifyElementVisible(findTestObject('Page_Search/product_tesla'))
 	}
 
+	@Then("User click hoby button")
+	public void user_click_hoby_button() {
+	WebUI.callTestCase(findTestCase('Pages/SearchCategory/Category Hoby'), [:], FailureHandling.STOP_ON_FAILURE)
+	}
+
+	@Then("User verify content product donut")
+	public void user_verify_content_product_donut() {
+		WebUI.verifyElementVisible(findTestObject('Page_Search/product_donut'))
+	}
+
+	@Then("User verify content product rtx")
+	public void user_verify_content_product_rtx() {
+		WebUI.verifyElementVisible(findTestObject('Page_Search/product_rtx'))
+	}
+
+	@Then("User verify content product tesla")
+	public void user_verify_content_product_tesla() {
+		WebUI.verifyElementVisible(findTestObject('Page_Search/product_tesla'))
+	}
+
+	@Then("User verify content product hyundai")
+	public void user_verify_content_product_hyundai() {
+		WebUI.verifyElementVisible(findTestObject('Page_Search/product_hyundai'))
+	}
+
+	@Then("User click baju button")
+	public void user_click_baju_button() {
+		WebUI.callTestCase(findTestCase('Pages/SearchCategory/Category Baju'), [:], FailureHandling.STOP_ON_FAILURE)
+	}
+
+	@Then("User verify content product gucci")
+	public void user_verify_content_product_gucci() {
+		WebUI.verifyElementVisible(findTestObject('Page_Search/product_gucci'))
+	}
+
+	@Then("User verify content product handuk")
+	public void user_verify_content_product_handuk() {WebUI.verifyElementVisible(findTestObject('Page_Search/product_handuk'))
+	}
+
+	@Then("User click elektronik button")
+	public void user_click_elektronik_button() {
+	}
+
+	@Then("User verify content product iphone{int}")
+	public void user_verify_content_product_iphone(Integer int1) {
+	}
+
+	@Then("User verify content product realme")
+	public void user_verify_content_product_realme() {
+	}
+
+	@Then("User click kesehatan button")
+	public void user_click_kesehatan_button() {
+	}
+
+	@Then("User verify content product susu")
+	public void user_verify_content_product_susu() {
+	}
+
+	@Then("User verify content product vaseline")
+	public void user_verify_content_product_vaseline() {
+	}
 }
