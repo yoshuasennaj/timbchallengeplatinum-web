@@ -102,54 +102,7 @@ class Search {
 
 	@Then("User click elektronik button")
 	public void user_click_elektronik_button() {
-<<<<<<< HEAD
 		WebUI.callTestCase(findTestCase('Pages/SearchCategory/Category Elektronik'), [:], FailureHandling.STOP_ON_FAILURE)
 	}
 
-	@Then("User verify content product iphone{int}")
-	public void user_verify_content_product_iphone(Integer int1) {
-		WebUI.verifyElementVisible(findTestObject('Page_Search/product_iphone14'))
-	}
-
-	@Then("User verify content product realme")
-	public void user_verify_content_product_realme() {
-		WebUI.verifyElementVisible(findTestObject('Page_Search/product_realme'))
-	}
-
-	@Then("User click kesehatan button")
-	public void user_click_kesehatan_button() {
-		WebUI.callTestCase(findTestCase('Pages/SearchCategory/Category Kesehatan'), [:], FailureHandling.STOP_ON_FAILURE)
-	}
-
-	@Then("User verify content product susu")
-	public void user_verify_content_product_susu() {
-		WebUI.verifyElementVisible(findTestObject('Page_Search/product_susu'))
-	}
-
-	@Then("User verify content product vaseline")
-	public void user_verify_content_product_vaseline() {
-		WebUI.verifyElementVisible(findTestObject('Page_Search/product_vaseline'))
-=======
-	}
-
-	@Then("User verify content product iphone{int}")
-	public void user_verify_content_product_iphone(Integer int1) {
-	}
-
-	@Then("User verify content product realme")
-	public void user_verify_content_product_realme() {
-	}
-
-	@Then("User click kesehatan button")
-	public void user_click_kesehatan_button() {
-	}
-
-	@Then("User verify content product susu")
-	public void user_verify_content_product_susu() {
-	}
-
-	@Then("User verify content product vaseline")
-	public void user_verify_content_product_vaseline() {
->>>>>>> branch 'main' of https://github.com/yoshuasennaj/timbchallengeplatinum-web
-	}
-}
+	
