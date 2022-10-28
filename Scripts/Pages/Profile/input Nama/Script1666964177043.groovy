@@ -17,5 +17,5 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.click(findTestObject('Page_Profile/icon_profile'))
+WebUI.sendKeys(findTestObject('Page_Profile/input_Nama'), nama)
 
