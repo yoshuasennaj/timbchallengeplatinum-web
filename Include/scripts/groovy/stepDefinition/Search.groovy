@@ -104,5 +104,4 @@ class Search {
 	public void user_click_elektronik_button() {
 		WebUI.callTestCase(findTestCase('Pages/SearchCategory/Category Elektronik'), [:], FailureHandling.STOP_ON_FAILURE)
 	}
-
-	
+}

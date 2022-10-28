@@ -23,3 +23,5 @@ WebUI.callTestCase(findTestCase('Pages/Profile/click btn profile'), [:], Failure
 
 WebUI.callTestCase(findTestCase('Pages/Profile/click link profile'), [:], FailureHandling.STOP_ON_FAILURE)
 
+WebUI.delay(7)
+

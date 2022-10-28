@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>link_Profile</name>
+   <name>a_Profile</name>
    <tag></tag>
-   <elementGuidId>98eb1ba0-dd13-44dd-ad8b-24bf53261f0c</elementGuidId>
+   <elementGuidId>2894cd39-b0c4-496b-8d4b-f56792d0de30</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>ef73fa62-2e02-41e7-a2c3-e8eef443a8b5</webElementGuid>
+      <webElementGuid>ca3041d2-cb92-4ab3-ab5e-1a3efefba5ee</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,31 +30,31 @@
       <name>class</name>
       <type>Main</type>
       <value>dropdown-item</value>
-      <webElementGuid>25fb8ead-8f3e-4145-9bec-14e7cad58d26</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>href</name>
-      <type>Main</type>
-      <value>/profile</value>
-      <webElementGuid>30142447-4b2f-412c-8aa6-b5e08782773a</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>text</name>
-      <type>Main</type>
-      <value>Profile</value>
-      <webElementGuid>1690edda-32f9-4354-b559-4f01b87f91d6</webElementGuid>
+      <webElementGuid>f3789305-2103-4836-9144-c63fd3a83e77</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>/profile</value>
+      <webElementGuid>3ee1d776-64f7-4f25-b216-faa4d30e20d6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Profile</value>
+      <webElementGuid>8f6f3fe4-3c56-4ffd-933e-f15f122f3cb6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;navbarText&quot;)/ul[@class=&quot;navbar-nav me-auto mb-2 mb-lg-0&quot;]/li[@class=&quot;dropdown show&quot;]/div[@class=&quot;dropdown-menu dropdown-menu-right show&quot;]/a[@class=&quot;dropdown-item&quot;]</value>
-      <webElementGuid>30dac56e-5a53-490e-885a-7de2fe537484</webElementGuid>
+      <webElementGuid>1a0ab8cb-71be-4571-abb0-d2344725e317</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='navbarText']/ul/li[3]/div/a</value>
-      <webElementGuid>d7ff5dc6-a938-4c72-b77b-c91c2ef7a570</webElementGuid>
+      <webElementGuid>64d57551-105a-4677-9e29-cb8d15d356d4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>(//a[contains(text(),'Profile')])[2]</value>
-      <webElementGuid>93045c48-3640-47e7-b472-4fcd8d86af9f</webElementGuid>
+      <webElementGuid>b7a1cda6-02d2-4c41-a5c9-4c0aff1bb900</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Log Out'])[1]/following::a[1]</value>
-      <webElementGuid>04f94eda-b4e2-4ed1-9f4a-5ea4efbec519</webElementGuid>
+      <webElementGuid>db753bc4-de77-4b4b-800f-b35ac44a9062</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +86,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Profile'])[1]/following::a[1]</value>
-      <webElementGuid>e12872ce-0616-492c-bc36-7f0262b1fb7a</webElementGuid>
+      <webElementGuid>95533e47-7e5c-4f79-82e1-817a4e550757</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +94,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Log Out'])[2]/preceding::a[1]</value>
-      <webElementGuid>401bb489-2918-4ce2-8536-953dc1e4a45a</webElementGuid>
+      <webElementGuid>decc9dd3-adf9-4271-bd14-0be0e2eabcfa</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +102,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Bulan Ramadan Banyak Diskon!'])[1]/preceding::a[1]</value>
-      <webElementGuid>58797bf5-733c-492d-bfef-44622840f260</webElementGuid>
+      <webElementGuid>e698fbce-83c4-4ba5-bdd6-0f8bf1426237</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,7 +110,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>(//a[contains(@href, '/profile')])[2]</value>
-      <webElementGuid>fe6049be-7e51-4f5c-8c82-faa98658f9a4</webElementGuid>
+      <webElementGuid>7f730827-1328-42ef-b3a8-50542fb65dd0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -118,7 +118,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//li[3]/div/a</value>
-      <webElementGuid>5bc7539a-6fce-4201-bd52-ad0486ba4c7a</webElementGuid>
+      <webElementGuid>db4d6f13-4f44-4c82-a656-0ddc248b0982</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -126,6 +126,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[@href = '/profile' and (text() = 'Profile' or . = 'Profile')]</value>
-      <webElementGuid>3f49790c-64f5-4fd7-aa4e-b3f9d66544ae</webElementGuid>
+      <webElementGuid>e4397bd3-4778-4170-9561-bbd2ceea1f1e</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
