@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Choose Kategori</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e1e65c46-c9f0-4959-a764-fd88adcc9bcb</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>451ad468-6460-498f-9d9f-0bdfbc1f8b89</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'2'</defaultValue>
+      <description></description>
+      <id>451ad468-6460-498f-9d9f-0bdfbc1f8b89</id>
+      <masked>false</masked>
+      <name>value</name>
+   </variable>
+</TestCaseEntity>
