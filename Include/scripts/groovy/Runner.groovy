@@ -1,5 +1,3 @@
-package stepDefinition
-
 import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
 import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
@@ -20,6 +18,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 
 import internal.GlobalVariable
 
+
 import org.junit.runner.RunWith;
 import cucumber.api.CucumberOptions;
 import cucumber.api.junit.Cucumber;
@@ -28,10 +27,9 @@ import cucumber.api.junit.Cucumber;
 @CucumberOptions(
 features = "Include/features",
 glue = "stepDefinition",
-tags = "",
+tags = "@LOGIN001,@LOGIN002,@LOGIN003,@LOGIN004,@LOGIN005",
 monochrome = true
 )
-
 
 public class Runner {
 }

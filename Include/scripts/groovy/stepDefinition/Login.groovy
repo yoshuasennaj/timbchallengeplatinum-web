@@ -46,6 +46,9 @@ public class Login {
 	@Then("User input valid email {string}")
 	public void user_input_valid_email(String email) {
 		WebUI.callTestCase(findTestCase('Pages/UserLogin/Input Email'), [('email') : 'binarqae1@gmail.com'], FailureHandling.STOP_ON_FAILURE)
+		WebUI.openBrowser('');
+		WebUI.maximizeWindow();
+		WebUI.navigateToUrl('https://deployed-five.vercel.app/');
 	}
 
 	@Then("User input valid password {string}")
