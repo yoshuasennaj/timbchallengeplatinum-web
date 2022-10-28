@@ -17,5 +17,5 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.sendKeys(findTestObject('Page_Register/input_Password'), password)
+WebUI.verifyElementVisible(findTestObject('Page_Register/text_Silahkan verifikasi email agar dapat menggunakan layanan kami'))
 

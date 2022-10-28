@@ -19,5 +19,5 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.verifyElementVisible(findTestObject('Page_Search/product_tesla'))
 
-WebUI.verifyElementVisible(findTestObject('Page_Search/product_tesla'))
+WebUI.verifyElementVisible(findTestObject('Page_Search/product_hyundai'))
 
