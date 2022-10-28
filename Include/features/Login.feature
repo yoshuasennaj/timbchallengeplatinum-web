@@ -13,7 +13,7 @@ Feature: Login
     Then User click on login button
 
   Scenario: LOGIN003 - User want to login with invalid email and password
-    Then User input invalid email "binarqe123@gmail.com"
+    Then User input invalid email "binarqe1@gmail.com"
     Then User input valid password "students1234"
     Then User click on login button
 

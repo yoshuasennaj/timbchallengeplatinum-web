@@ -44,22 +44,27 @@ import cucumber.api.java.en.When
 
 public class Login {
 	@Then("User input valid email {string}")
-	public void user_input_valid_email(String string) {
+	public void user_input_valid_email(String email) {
+		WebUI.callTestCase(findTestCase('Pages/UserLogin/Input Email'), [('email') : 'binarqae1@gmail.com'], FailureHandling.STOP_ON_FAILURE)
 	}
 
 	@Then("User input valid password {string}")
-	public void user_input_valid_password(String string) {
+	public void user_input_valid_password(String password) {
+		WebUI.callTestCase(findTestCase('Pages/UserLogin/Input Password'), [('password') : 'students1234'], FailureHandling.STOP_ON_FAILURE)
 	}
 
 	@Then("User click on login button")
 	public void user_click_on_login_button() {
+		WebUI.callTestCase(findTestCase('Pages/UserLogin/Click login button'), [:], FailureHandling.STOP_ON_FAILURE)
+	}
+
+	@Then("User input invalid email {string}")
+	public void user_input_invalid_username(String email) {
+		WebUI.callTestCase(findTestCase('Pages/UserLogin/Input Email'), [('email') : 'binarqe1@gmail.com'], FailureHandling.STOP_ON_FAILURE)
 	}
 
 	@Then("User input invalid password {string}")
-	public void user_input_invalid_username(String string) {
-	}
-
-	@Then("User input invalid password {string}")
-	public void user_input_invalid_password(String string) {
+	public void user_input_invalid_password(String password) {
+		WebUI.callTestCase(findTestCase('Pages/UserLogin/Input Password'), [('password') : 'students123'], FailureHandling.STOP_ON_FAILURE)
 	}
 }
