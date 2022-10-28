@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>OFFERING003 - User wants to enter a bid price without input price</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c506c058-4cb6-4a94-a8d3-1f96d843a122</testCaseGuid>
+</TestCaseEntity>

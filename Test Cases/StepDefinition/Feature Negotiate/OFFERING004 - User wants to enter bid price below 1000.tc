@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>OFFERING004 - User wants to enter bid price below 1000</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>16bff83a-a8aa-49bd-97f9-50ff70c240a6</testCaseGuid>
+</TestCaseEntity>
