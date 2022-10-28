@@ -1,23 +1,26 @@
+@Login @Smoke
 Feature: Login
-  As a user, I want to login in Swag Labs web.
+  As a user, I want to login in SECONDHAND web.
 
-  Scenario: LGI001 - User want to login without input username and password
-    Then User click on LOGIN button
+  Scenario: LOGIN001 - User want to login with valid email and password
+    Then User input valid email "binarqae1@gmail.com"
+    Then User input valid password "students1234"
+    Then User click on login button
 
-  Scenario: LGI002 - User want to login only input registered username
-    Then User input registered username only "standard_user"
-    Then User click on LOGIN button
+  Scenario: LOGIN002 - User want to login with valid email and invalid password
+    Then User input valid email "binarqae1@gmail.com"
+    Then User input invalid password "students123"
+    Then User click on login button
 
-  Scenario: LGI003 - User want to login only input registered password
-    Then User input registered password only "secret_sauce"
-    Then User click on LOGIN button
+  Scenario: LOGIN003 - User want to login with invalid email and password
+    Then User input invalid email "binarqe123@gmail.com"
+    Then User input valid password "students1234"
+    Then User click on login button
 
-  Scenario: LGI004 - User want to login using incorrect credential
-    Then User input incorrect username "xxxxxxxx"
-    Then User input incorrect password "xxxxxxxx"
-    Then User click on LOGIN button
+  Scenario: LOGIN004 - User want to login with invalid email and invalid password
+    Then User input valid email "binarqe1@gmail.com"
+    Then User input invalid password "students123"
+    Then User click on login button
 
-  Scenario: LGI005 - User want to login using correct credential
-    Then User input registered username "standard_user"
-    Then User input registered password "secret_sauce"
-    Then User click on LOGIN button
+  Scenario: LOGIN005 - User want to login without fill in email and password
+    Then User click on login button
