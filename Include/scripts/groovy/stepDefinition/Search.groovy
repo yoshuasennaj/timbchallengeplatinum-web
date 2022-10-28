@@ -112,7 +112,7 @@ class Search {
 	@Then("User verify content product iphone")
 	public void user_verify_content_product_iphone() {
 		WebUI.verifyElementVisible(findTestObject('Page_Search/img_iphone'))
-}
+	}
 
 	@Then("User verify content product realme")
 	public void user_verify_content_product_realme() {

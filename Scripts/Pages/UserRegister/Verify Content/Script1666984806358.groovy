@@ -19,11 +19,3 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.verifyElementVisible(findTestObject('Page_Register/img_SecondHand'))
 
-WebUI.verifyElementVisible(findTestObject('Page_Register/label_Nama'))
-
-WebUI.verifyElementVisible(findTestObject('Page_Register/label_Email'))
-
-WebUI.verifyElementVisible(findTestObject('Page_Register/label_Password'))
-
-WebUI.verifyElementVisible(findTestObject('Page_Register/text_Daftar'))
-

@@ -1,6 +1,6 @@
 @Registrasi @Smoke
 Feature: Registrasi
-
+//muhamadAgeng
 	@REGIS001
 	Scenario: REGIS001 - User want to register with account registered
 		Then User click link masuk

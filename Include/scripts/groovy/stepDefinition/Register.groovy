@@ -47,25 +47,32 @@ import cucumber.api.java.en.When
 class Register {
 	@Then("User click link masuk")
 	public void user_click_link_masuk() {
+		WebUI.callTestCase(findTestCase('Pages/UserRegister/Click Link Masuk'), [:], FailureHandling.STOP_ON_FAILURE)
 	}
 
 	@Then("User click link daftar disini")
 	public void user_click_link_daftar_disini() {
+		WebUI.callTestCase(findTestCase('Pages/UserRegister/Click Link Daftar di sini'), [:], FailureHandling.STOP_ON_FAILURE)
 	}
 
 	@Then("User input nama {string}")
 	public void user_input_nama(String string) {
+		WebUI.callTestCase(findTestCase('Pages/UserRegister/Input Nama'), [('nama') : 'ageng'], FailureHandling.STOP_ON_FAILURE)
 	}
 
 	@Then("User input email {string}")
 	public void user_input_email(String string) {
+		WebUI.callTestCase(findTestCase('Pages/UserRegister/Input Email'), [('email') : 'agengjobb@gmail.com'], FailureHandling.STOP_ON_FAILURE)
 	}
 
 	@Then("User input password {string}")
 	public void user_input_password(String string) {
+		WebUI.callTestCase(findTestCase('Pages/UserRegister/Input Password'), [('password') : 'Cobain23'], FailureHandling.STOP_ON_FAILURE)
+		
 	}
 
 	@Then("User click button daftar")
 	public void user_click_button_daftar() {
+		WebUI.callTestCase(findTestCase('Pages/UserRegister/Click btn Daftar'), [:], FailureHandling.STOP_ON_FAILURE)
 	}
 }
