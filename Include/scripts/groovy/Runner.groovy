@@ -27,7 +27,8 @@ import cucumber.api.junit.Cucumber;
 features = "Include/features/",
 glue = "stepDefinition",
 tags = "@LOGIN001, @LOGIN002, @LOGIN003, @LOGIN004, @LOGIN005",
-monochrome = true
+monochrome = true,
+plugin = "html:Reports/Cucumber"
 )
 public class Runner {
 }

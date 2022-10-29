@@ -46,9 +46,6 @@ public class Login {
 	@Then("User click on button masuk")
 	public void user_click_on_button_masuk() {
 		WebUI.click(findTestObject('Page_Login/link_Masuk'))
-		WebUI.openBrowser('');
-		WebUI.maximizeWindow();
-		WebUI.navigateToUrl('https://deployed-five.vercel.app/');
 	}
 
 	@Then("User input valid email {string}")

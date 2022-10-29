@@ -17,7 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.clearText(findTestObject('null'), FailureHandling.STOP_ON_FAILURE)
+WebUI.clearText(findTestObject('Page_ProductInfo/input_HargaProduk'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.sendKeys(findTestObject('null'), '')
+WebUI.sendKeys(findTestObject('Page_ProductInfo/input_HargaProduk'), '120000')
 

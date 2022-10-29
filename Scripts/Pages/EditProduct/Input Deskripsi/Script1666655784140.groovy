@@ -17,7 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.clearText(findTestObject('null'))
+WebUI.clearText(findTestObject('Page_ProductInfo/textarea_Deskripsi'))
 
-WebUI.sendKeys(findTestObject('null'), '')
+WebUI.sendKeys(findTestObject('Page_ProductInfo/textarea_Deskripsi'), 'baru')
 

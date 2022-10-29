@@ -24,6 +24,12 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/StepDefinition/Feature Login/LOGIN002- Login With Valid Email and Invalid Password</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>510ccf55-6497-4bfd-9bdb-ac9ed3bac73e</variableId>
+      </variableLink>
    </testCaseLink>
    <testCaseLink>
       <guid>3d0e34e6-248e-47af-942c-76f329dfd732</guid>
