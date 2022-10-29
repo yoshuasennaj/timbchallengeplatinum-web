@@ -17,7 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.click(findTestObject('null'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('Page_ProductInfo/select_PilihKategori'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.scrollToElement(findTestObject('null'), 0)
+WebUI.scrollToElement(findTestObject('Page_ProductInfo/select_PilihKategori'), 0)
 
