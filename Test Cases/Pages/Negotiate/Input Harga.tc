@@ -5,4 +5,17 @@
    <tag></tag>
    <comment></comment>
    <testCaseGuid>85b63368-6584-4b16-a18e-ef812b98dbde</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>7a609d70-95e7-4977-87b8-2eb58923eab3</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>7a609d70-95e7-4977-87b8-2eb58923eab3</id>
+      <masked>false</masked>
+      <name>harga</name>
+   </variable>
 </TestCaseEntity>

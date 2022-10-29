@@ -104,4 +104,32 @@ class Search {
 	public void user_click_elektronik_button() {
 		WebUI.callTestCase(findTestCase('Pages/SearchCategory/Category Elektronik'), [:], FailureHandling.STOP_ON_FAILURE)
 	}
+	@Then("User click kendaraan button")
+	public void user_click_kendaraan_button() {
+	}
+
+	@Then("User verify content product iphone")
+	public void user_verify_content_product_iphone() {
+		WebUI.verifyElementVisible(findTestObject('Page_Search/product_iphone'))	
+	}
+
+	@Then("User verify content product realme")
+	public void user_verify_content_product_realme() {		
+		WebUI.verifyElementVisible(findTestObject('Page_Search/product_realme'))
+	}
+
+	@Then("User click kesehatan button")
+	public void user_click_kesehatan_button() {
+		WebUI.callTestCase(findTestCase('Pages/SearchCategory/Category Kesehatan'), [:], FailureHandling.STOP_ON_FAILURE)
+	}
+
+	@Then("User verify content product susu")
+	public void user_verify_content_product_susu() {
+		WebUI.verifyElementVisible(findTestObject('Page_Search/product_susu'))
+	}
+
+	@Then("User verify content product vaseline")
+	public void user_verify_content_product_vaseline() {
+		WebUI.verifyElementVisible(findTestObject('Page_Search/product_vaseline'))
+	}
 }

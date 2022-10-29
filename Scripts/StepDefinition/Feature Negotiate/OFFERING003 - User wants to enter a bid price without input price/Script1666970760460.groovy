@@ -17,5 +17,15 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.sendKeys(findTestObject('Page_Login/input_Email'), email)
+WebUI.callTestCase(findTestCase('StepDefinition/Feature Login/LOGIN001- Login With Valid Email and Password'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('Pages/Negotiate/Click Product'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('Pages/Negotiate/Click Negotiate'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('Pages/Negotiate/Click Kirim'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('Pages/Negotiate/Verifiy Content Negotiate'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.delay(5)
 

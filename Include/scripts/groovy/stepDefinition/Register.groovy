@@ -45,34 +45,27 @@ import cucumber.api.java.en.When
 
 
 class Register {
-@Then("User click link masuk")
-public void user_click_link_masuk() {
-	
+	@Then("User click link masuk")
+	public void user_click_link_masuk() {
+	}
 
-}
+	@Then("User click link daftar disini")
+	public void user_click_link_daftar_disini() {
+	}
 
-@Then("User click link daftar disini")
-public void user_click_link_daftar_disini() {
+	@Then("User input nama {string}")
+	public void user_input_nama(String string) {
+	}
 
-}
+	@Then("User input email {string}")
+	public void user_input_email(String string) {
+	}
 
-@Then("User input nama {string}")
-public void user_input_nama(String string) {
+	@Then("User input password {string}")
+	public void user_input_password(String string) {
+	}
 
-}
-
-@Then("User input email {string}")
-public void user_input_email(String string) {
-
-}
-
-@Then("User input password {string}")
-public void user_input_password(String string) {
-
-}
-
-@Then("User click button daftar")
-public void user_click_button_daftar() {
-
-}
+	@Then("User click button daftar")
+	public void user_click_button_daftar() {
+	}
 }

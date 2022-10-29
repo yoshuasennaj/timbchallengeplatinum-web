@@ -4,5 +4,9 @@
    <name>Runner</name>
    <tag></tag>
    <comment></comment>
+<<<<<<< HEAD
    <testCaseGuid>43fc9cf2-dcd0-4507-ad34-1a9b128dfa2c</testCaseGuid>
+=======
+   <testCaseGuid>198e1610-ffee-4e96-92fd-99ec684a3d2c</testCaseGuid>
+>>>>>>> branch 'main' of https://github.com/yoshuasennaj/timbchallengeplatinum-web
 </TestCaseEntity>

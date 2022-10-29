@@ -17,13 +17,5 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('Pages/UserLogin/Click Link Masuk'), [:], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.callTestCase(findTestCase('Pages/UserLogin/Input Email'), [('email') : 'binarqae1@gmail.com'], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.callTestCase(findTestCase('Pages/UserLogin/Input Password'), [('password') : 'students123'], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.callTestCase(findTestCase('Pages/UserLogin/Click login button'), [:], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.delay(5)
+CucumberKW.runWithCucumberRunner(Runner.class)
 

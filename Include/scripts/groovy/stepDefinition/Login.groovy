@@ -43,12 +43,17 @@ import cucumber.api.java.en.Then
 import cucumber.api.java.en.When
 
 public class Login {
-	@Then("User input valid email {string}")
-	public void user_input_valid_email(String email) {
-		WebUI.callTestCase(findTestCase('Pages/UserLogin/Input Email'), [('email') : 'binarqae1@gmail.com'], FailureHandling.STOP_ON_FAILURE)
+	@Then("User click on button masuk")
+	public void user_click_on_button_masuk() {
+		WebUI.click(findTestObject('Page_Login/link_Masuk'))
 		WebUI.openBrowser('');
 		WebUI.maximizeWindow();
 		WebUI.navigateToUrl('https://deployed-five.vercel.app/');
+	}
+
+	@Then("User input valid email {string}")
+	public void user_input_valid_email(String email) {
+		WebUI.callTestCase(findTestCase('Pages/UserLogin/Input Email'), [('email') : 'binarqae1@gmail.com'], FailureHandling.STOP_ON_FAILURE)
 	}
 
 	@Then("User input valid password {string}")

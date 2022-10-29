@@ -3,7 +3,6 @@ Feature: Search
 
 	@SEARCHCATEGORY001
 	Scenario: SEARCHCATEGORY001 - SEARCH CATEGORY Semua
-	Then 
 		Then User click semua button
 		Then User verify content donut
 		Then User verify content tesla
@@ -16,7 +15,7 @@ Feature: Search
 	
 	@SEARCHCATEGORY003
 	Scenario: SEARCHCATEGORY003 - SEARCH CATEGORY Kendaraan
-		Then User click hoby button
+		Then User click kendaraan button
 		Then User verify content product tesla
 		Then User verify content product hyundai
 	
@@ -29,7 +28,7 @@ Feature: Search
 	@SEARCHCATEGORY005
 	Scenario: SEARCHCATEGORY005 - SEARCH CATEGORY Elektronik
 		Then User click elektronik button
-		Then User verify content product iphone14
+		Then User verify content product iphone
 		Then User verify content product realme
 	
 	@SEARCHCATEGORY006

@@ -17,7 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.verifyElementVisible(findTestObject('Page_Search/product_iphone14'))
+WebUI.verifyElementVisible(findTestObject('Page_Search/product_iphone'))
 
 WebUI.verifyElementVisible(findTestObject('Page_Search/product_realme'))
 
