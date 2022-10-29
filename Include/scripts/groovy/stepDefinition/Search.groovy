@@ -52,12 +52,12 @@ class Search {
 
 	@Then("User verify content donut")
 	public void user_verify_content_donut() {
-		WebUI.verifyElementVisible(findTestObject('Page_Search/product_donut'))
+		WebUI.verifyElementVisible(findTestObject('Page_Search/img_donut'))
 	}
 
 	@Then("User verify content tesla")
 	public void user_verify_content_tesla() {
-		WebUI.verifyElementVisible(findTestObject('Page_Search/product_tesla'))
+		WebUI.verifyElementVisible(findTestObject('Page_Search/img_tesla'))
 	}
 
 	@Then("User click hoby button")
@@ -67,22 +67,22 @@ class Search {
 
 	@Then("User verify content product donut")
 	public void user_verify_content_product_donut() {
-		WebUI.verifyElementVisible(findTestObject('Page_Search/product_donut'))
+		WebUI.verifyElementVisible(findTestObject('Page_Search/img_donut'))
 	}
 
 	@Then("User verify content product rtx")
 	public void user_verify_content_product_rtx() {
-		WebUI.verifyElementVisible(findTestObject('Page_Search/product_rtx'))
+		WebUI.verifyElementVisible(findTestObject('Page_Search/img_rtx'))
 	}
 
 	@Then("User verify content product tesla")
 	public void user_verify_content_product_tesla() {
-		WebUI.verifyElementVisible(findTestObject('Page_Search/product_tesla'))
+		WebUI.verifyElementVisible(findTestObject('Page_Search/img_tesla'))
 	}
 
 	@Then("User verify content product hyundai")
 	public void user_verify_content_product_hyundai() {
-		WebUI.verifyElementVisible(findTestObject('Page_Search/product_hyundai'))
+		WebUI.verifyElementVisible(findTestObject('Page_Search/img_hyundai'))
 	}
 
 	@Then("User click baju button")
@@ -92,12 +92,12 @@ class Search {
 
 	@Then("User verify content product gucci")
 	public void user_verify_content_product_gucci() {
-		WebUI.verifyElementVisible(findTestObject('Page_Search/product_gucci'))
+		WebUI.verifyElementVisible(findTestObject('Page_Search/img_gucci'))
 	}
 
 	@Then("User verify content product handuk")
 	public void user_verify_content_product_handuk() {
-		WebUI.verifyElementVisible(findTestObject('Page_Search/product_handuk'))
+		WebUI.verifyElementVisible(findTestObject('Page_Search/img_handuk'))
 	}
 
 	@Then("User click elektronik button")
@@ -106,16 +106,17 @@ class Search {
 	}
 	@Then("User click kendaraan button")
 	public void user_click_kendaraan_button() {
+		WebUI.callTestCase(findTestCase('Pages/SearchCategory/Category Kendaraan'), [:], FailureHandling.STOP_ON_FAILURE)
 	}
 
 	@Then("User verify content product iphone")
 	public void user_verify_content_product_iphone() {
-		WebUI.verifyElementVisible(findTestObject('Page_Search/product_iphone'))	
-	}
+		WebUI.verifyElementVisible(findTestObject('Page_Search/img_iphone'))
+}
 
 	@Then("User verify content product realme")
-	public void user_verify_content_product_realme() {		
-		WebUI.verifyElementVisible(findTestObject('Page_Search/product_realme'))
+	public void user_verify_content_product_realme() {
+		WebUI.verifyElementVisible(findTestObject('Page_Search/img_realme'))
 	}
 
 	@Then("User click kesehatan button")
@@ -125,11 +126,11 @@ class Search {
 
 	@Then("User verify content product susu")
 	public void user_verify_content_product_susu() {
-		WebUI.verifyElementVisible(findTestObject('Page_Search/product_susu'))
+		WebUI.verifyElementVisible(findTestObject('Page_Search/img_susu'))
 	}
 
 	@Then("User verify content product vaseline")
 	public void user_verify_content_product_vaseline() {
-		WebUI.verifyElementVisible(findTestObject('Page_Search/product_vaseline'))
+		WebUI.verifyElementVisible(findTestObject('Page_Search/img_vaseline'))
 	}
 }

@@ -17,7 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.verifyElementVisible(findTestObject('null'))
+WebUI.verifyElementVisible(findTestObject('Page_Search/img_iphone'))
 
-WebUI.verifyElementVisible(findTestObject('null'))
+WebUI.verifyElementVisible(findTestObject('Page_Search/img_realme'))
 
