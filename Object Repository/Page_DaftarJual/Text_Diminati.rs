@@ -6,12 +6,11 @@
    <elementGuidId>94f348a8-6152-4c11-8eb4-03c571f705ec</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>(//i[@type='button'])[2]</value>
+         <key>CSS</key>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>(//i[@type='button'])[2]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -22,7 +21,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>i</value>
-      <webElementGuid>7e46b9d7-ab94-4320-9031-380bb978c0e1</webElementGuid>
+      <webElementGuid>70fa9206-df2a-4382-b006-160ea913e67f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +29,7 @@
       <name>type</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>184c39fb-33df-4083-b6c3-3670b00653c0</webElementGuid>
+      <webElementGuid>17b94202-1288-4b3a-bb1c-db5edf8cba99</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,15 +37,15 @@
       <name>class</name>
       <type>Main</type>
       <value>&quot;link&quot; </value>
-      <webElementGuid>844c6c7e-1745-4de5-9e55-5ea0c2cdc086</webElementGuid>
+      <webElementGuid>78e24fa6-fe84-436f-bc30-beb39741aa3c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
       <value> Diminati</value>
-      <webElementGuid>42894f56-9ab5-4168-8edd-483cbc9cfdec</webElementGuid>
+      <webElementGuid>cc189431-a2d5-4fa7-8394-200aecad894d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,15 +53,55 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;root&quot;)/div[1]/div[@class=&quot;mt-4 pb-4 container&quot;]/div[@class=&quot;mt-4 row&quot;]/div[@class=&quot;col&quot;]/div[@class=&quot;card category&quot;]/div[@class=&quot;card-body&quot;]/div[@class=&quot;py-2 text-decoration list-group list-group-flush&quot;]/button[@class=&quot;py-3 list-group-item list-group-item-action&quot;]/i[@class=&quot;&quot;link&quot;&quot;]</value>
-      <webElementGuid>78ffef33-e298-4283-aa04-bd8f72e6fad7</webElementGuid>
+      <webElementGuid>ba904e40-a83c-402e-9083-e4d3a3ae2392</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>i</value>
+      <webElementGuid>d392c01d-0ab9-4946-b220-049d7a26f0d7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>65a24da7-5812-49be-b852-3f661398828f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>&quot;link&quot; </value>
+      <webElementGuid>da59f1ff-1866-4dbe-8273-61e9f8c0e907</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> Diminati</value>
+      <webElementGuid>ccaa86f6-dbef-4630-b005-697eac315521</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[1]/div[@class=&quot;mt-4 pb-4 container&quot;]/div[@class=&quot;mt-4 row&quot;]/div[@class=&quot;col&quot;]/div[@class=&quot;card category&quot;]/div[@class=&quot;card-body&quot;]/div[@class=&quot;py-2 text-decoration list-group list-group-flush&quot;]/button[@class=&quot;py-3 list-group-item list-group-item-action&quot;]/i[@class=&quot;&quot;link&quot;&quot;]</value>
+      <webElementGuid>c4a368ab-9e2e-45c5-b5ce-2d0c06e582a8</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>(//i[@type='button'])[2]</value>
-      <webElementGuid>90f2e447-cb57-4251-9094-57ad9b4ff94f</webElementGuid>
+      <webElementGuid>71bfe4dc-22d8-47ab-bede-ec336b5b9a77</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +109,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='root']/div/div/div[3]/div/div/div/div/button[2]/i</value>
-      <webElementGuid>233679a8-293f-4edf-901e-bf9c3d5eb2e2</webElementGuid>
+      <webElementGuid>3463492e-3d54-40ab-b915-303256b5a253</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +117,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Kategori'])[1]/following::i[2]</value>
-      <webElementGuid>2e389d4d-c695-410b-a6c4-ac1634dd0c36</webElementGuid>
+      <webElementGuid>f839faec-cd05-4b90-a388-a77ef8d2ed43</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +125,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Capture object:'])[1]/preceding::i[2]</value>
-      <webElementGuid>95159cdf-43b9-4816-95fc-dbb5a6c5b76a</webElementGuid>
+      <webElementGuid>08b68f77-bf37-4d4b-868c-6256e86b94ad</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +133,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Diminati']/parent::*</value>
-      <webElementGuid>71a3efd7-9a78-4dc6-b14e-01a6501d2726</webElementGuid>
+      <webElementGuid>78c0dbfa-c482-4ddd-a1df-6a3138033e27</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +141,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//button[2]/i</value>
-      <webElementGuid>1dece3a1-f239-4a4b-8f2d-a8eece81c04a</webElementGuid>
+      <webElementGuid>79fda109-eac9-4c08-9215-22b60d829e6a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,6 +149,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//i[@type = 'button' and (text() = ' Diminati' or . = ' Diminati')]</value>
-      <webElementGuid>65f4fb98-6b2e-4ded-9c2a-7396c46ceb20</webElementGuid>
+      <webElementGuid>ab3dbe0e-edc8-435e-b727-8e92052d400d</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

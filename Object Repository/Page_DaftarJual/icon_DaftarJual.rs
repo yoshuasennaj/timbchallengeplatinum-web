@@ -6,12 +6,12 @@
    <elementGuidId>24cc861b-5d79-428e-b6e7-91ad4c513304</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='navbarText']/ul/li/a</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>a.nav-link</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='navbarText']/ul/li/a</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>e08dd039-61f2-4679-a356-3dc379ea2a86</webElementGuid>
+      <webElementGuid>acd628d1-a6e7-4c3c-a3f5-b98147dd9ae2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,15 +30,15 @@
       <name>class</name>
       <type>Main</type>
       <value>nav-link</value>
-      <webElementGuid>d34cbff7-0e95-4589-8efd-cd6c2895ae47</webElementGuid>
+      <webElementGuid>6b0fea85-c5a7-49ca-be79-95eea7178f4a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>
       <value>/daftarjual</value>
-      <webElementGuid>53e60b2b-14af-4505-9a99-48c9b43e381e</webElementGuid>
+      <webElementGuid>66dbf48b-ebb6-4f4d-9af8-ce55be9c4e04</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,15 +46,47 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;navbarText&quot;)/ul[@class=&quot;navbar-nav me-auto mb-2 mb-lg-0&quot;]/li[1]/a[@class=&quot;nav-link&quot;]</value>
-      <webElementGuid>b0b030ab-a978-4fb5-9cb3-42f036b962f3</webElementGuid>
+      <webElementGuid>541075fe-c183-418a-a4df-e4e93aae2f39</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>9c1a21c7-ce61-48ef-ab1c-26cb3abfd4bb</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>nav-link</value>
+      <webElementGuid>6e7fcbc4-c34c-44bc-91c5-aad5deac2750</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>/daftarjual</value>
+      <webElementGuid>4b9d3b31-44b7-4335-8a87-e93a99a17271</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;navbarText&quot;)/ul[@class=&quot;navbar-nav me-auto mb-2 mb-lg-0&quot;]/li[1]/a[@class=&quot;nav-link&quot;]</value>
+      <webElementGuid>d52aa338-9411-4fab-bf5a-2a086fb0152a</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='navbarText']/ul/li/a</value>
-      <webElementGuid>f02d040e-d29a-4c51-b215-41e3b450d1cd</webElementGuid>
+      <webElementGuid>59fd3457-4e90-4c8c-9bfe-b7c331daa534</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,7 +94,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Profile'])[1]/preceding::a[1]</value>
-      <webElementGuid>dfadcd5e-03d7-4f95-a516-3f2fce12e9a3</webElementGuid>
+      <webElementGuid>bbec0688-d033-4c03-a352-52291a7c64cd</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +102,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Log Out'])[1]/preceding::a[2]</value>
-      <webElementGuid>d6fb1ac9-7dc5-4804-b765-d884ab1f9344</webElementGuid>
+      <webElementGuid>a8ff8f12-6dee-4406-9c30-cb43359098bc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +110,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>//a[contains(@href, '/daftarjual')]</value>
-      <webElementGuid>6f369337-dce4-4635-9bc4-6db04856b267</webElementGuid>
+      <webElementGuid>fe8d5437-a8d4-4583-9dcb-9dfa896847ec</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +118,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//li/a</value>
-      <webElementGuid>307d4e1f-4017-4156-9d28-7c7bdd3eafc6</webElementGuid>
+      <webElementGuid>3169bbd7-aced-4065-86cf-77d50b0a50b5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,6 +126,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[@href = '/daftarjual']</value>
-      <webElementGuid>228a37f9-723f-4d63-8682-3b5ae7d01f95</webElementGuid>
+      <webElementGuid>488dedeb-8a83-4b21-84e2-3380bd0f82d4</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
