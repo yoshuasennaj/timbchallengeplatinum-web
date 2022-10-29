@@ -6,12 +6,12 @@
    <elementGuidId>f83588d4-019d-4a4d-98cc-3a0123ecaf3c</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//a[@type='button']</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>a.card.content.add</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//a[@type='button']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>e32309fe-cee5-4d29-b891-19c5ab96e8f9</webElementGuid>
+      <webElementGuid>1a93340f-9ac5-4d56-b633-bea5e6569a2e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,31 +30,31 @@
       <name>class</name>
       <type>Main</type>
       <value>card content add</value>
-      <webElementGuid>d3b48bac-7d95-4e21-ae38-6670d8088e44</webElementGuid>
+      <webElementGuid>7473baad-db39-4749-b35a-e15e50dec3c5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>type</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>0783b081-1ddd-4c90-aa47-8dd16c122890</webElementGuid>
+      <webElementGuid>ef779543-b23d-438c-8df4-12aab1b1cf30</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>
       <value>/productinfo</value>
-      <webElementGuid>3ce575d1-b2cf-4c93-b399-92bd614f9422</webElementGuid>
+      <webElementGuid>94aa9ae8-659c-4f67-821f-3b96290ff94f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
       <value> Tambah Produk</value>
-      <webElementGuid>6bd21ec6-b88d-4589-b33f-fb8fcd0c1b77</webElementGuid>
+      <webElementGuid>c2561785-9eb3-4092-97de-e3edd0194311</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,15 +62,63 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;root&quot;)/div[1]/div[@class=&quot;mt-4 pb-4 container&quot;]/div[@class=&quot;mt-4 row&quot;]/div[@class=&quot;col-lg-9 col&quot;]/div[@class=&quot;row row-cols-lg-3&quot;]/div[@class=&quot;col&quot;]/a[@class=&quot;card content add&quot;]</value>
-      <webElementGuid>78bcadc0-4ab6-4696-ac2e-d87a4400203e</webElementGuid>
+      <webElementGuid>57be51df-2f9c-4594-8558-63ec69083a1d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>8b839a0c-47f3-4872-8912-b0e4b0598449</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>card content add</value>
+      <webElementGuid>1da729b1-471b-46f4-92e5-daa4555ff399</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>d45dff45-896b-4fef-9ff7-e19cc41aa31a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>/productinfo</value>
+      <webElementGuid>6a8bb5a1-50f9-4ec9-825b-d0694039ab17</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> Tambah Produk</value>
+      <webElementGuid>4d233a6a-4843-4f36-89a2-524b74614218</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[1]/div[@class=&quot;mt-4 pb-4 container&quot;]/div[@class=&quot;mt-4 row&quot;]/div[@class=&quot;col-lg-9 col&quot;]/div[@class=&quot;row row-cols-lg-3&quot;]/div[@class=&quot;col&quot;]/a[@class=&quot;card content add&quot;]</value>
+      <webElementGuid>c20fecdc-b5d2-4143-9fe0-646e7851f3c8</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//a[@type='button']</value>
-      <webElementGuid>76fbbfec-b584-4c24-9006-d6d845211f93</webElementGuid>
+      <webElementGuid>f37eab6e-4fff-49a9-9fbe-8973d8c850f2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +126,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='root']/div/div/div[3]/div[2]/div/div/a</value>
-      <webElementGuid>ae80df40-8f7b-4651-bfba-4b1e2e530484</webElementGuid>
+      <webElementGuid>1af19081-f7b8-4565-a11c-e66fd657b059</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +134,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Capture object:'])[1]/preceding::a[1]</value>
-      <webElementGuid>b6e69afa-cd3e-46c3-ba18-9f74f7b2d4ee</webElementGuid>
+      <webElementGuid>62ef8a66-fa25-42fe-a1c0-65e7b8534dc0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +142,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Alt'])[1]/preceding::a[1]</value>
-      <webElementGuid>83015a1c-08eb-455c-bb2c-f0fee67a7acd</webElementGuid>
+      <webElementGuid>b1b75592-31a4-4621-970d-c9a25f9983e3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +150,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>//a[contains(@href, '/productinfo')]</value>
-      <webElementGuid>47238db1-23c7-4f56-910c-29e55564fd1c</webElementGuid>
+      <webElementGuid>e14bd129-93ff-4fd5-bac8-2574a2c889cf</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,7 +158,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[3]/div[2]/div/div/a</value>
-      <webElementGuid>a19d3ea4-53e9-4c45-8d7e-1f152dfef7e1</webElementGuid>
+      <webElementGuid>7141ffef-cb7b-4e17-8dd7-e214b9898390</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -118,6 +166,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[@type = 'button' and @href = '/productinfo' and (text() = ' Tambah Produk' or . = ' Tambah Produk')]</value>
-      <webElementGuid>696453f8-6f47-4377-bb1f-59a6be9d9234</webElementGuid>
+      <webElementGuid>1366a3a6-dbcc-4045-b2e9-4db1588b42ae</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

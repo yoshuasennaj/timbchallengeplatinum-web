@@ -15,5 +15,5 @@ import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.checkpoint.Checkpoint as Checkpoint
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.click(findTestObject('Page_Login/link_Masuk'))
+WebUI.click(findTestObject('Page_DaftarJual/button_Terjual'))
 
