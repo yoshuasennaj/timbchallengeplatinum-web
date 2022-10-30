@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>SELL006 - Seller add new product without Foto Produk</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>be167862-5c82-4da4-8ebc-cdfcfffdc82a</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>SELL003 - Seller add new product without Harga Produk</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>dd186e1c-d786-4967-b7dc-7b276df7a124</testCaseGuid>
+</TestCaseEntity>

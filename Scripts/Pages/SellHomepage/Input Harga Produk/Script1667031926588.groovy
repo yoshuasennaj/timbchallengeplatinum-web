@@ -17,13 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('Pages/UserLogin/Click Link Masuk'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('Page_SellHomepage/input_HargaProduk'))
 
-WebUI.callTestCase(findTestCase('Pages/UserLogin/Input Email'), [('email') : 'asadulhaq.ali@hotmail.com'], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.callTestCase(findTestCase('Pages/UserLogin/Input Password'), [('password') : 'test12345'], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.callTestCase(findTestCase('Pages/UserLogin/Click login button'), [:], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.delay(5)
+WebUI.sendKeys(findTestObject('Page_SellHomepage/input_HargaProduk'), '200000')
 
