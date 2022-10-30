@@ -1,0 +1,44 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Search,Chrome 106.0.0.0,,,2022-10-30 14:24:02,2022-10-30 14:25:36,1m - 33.893s,PASSED
+,,,,,,,
+Test Cases/StepDefinition/Feature Search Category/SEARCHCATEGORY001 - SEARCH CATEGORY Semua,Chrome 106.0.0.0,,,2022-10-30 14:24:07,2022-10-30 14:24:23,16.405s,PASSED
+Start listener action : beforeTestCase,Chrome 106.0.0.0,,,2022-10-30 14:24:07,2022-10-30 14:24:11,3.806s,PASSED
+"callTestCase(findTestCase(""StepDefinition/Feature Login/LOGIN001- Login With Valid Email and Password""), [:], STOP_ON_FAILURE)",Chrome 106.0.0.0,,,2022-10-30 14:24:11,2022-10-30 14:24:21,9.799s,PASSED
+"callTestCase(findTestCase(""Pages/SearchCategory/Category Semua""), [:], STOP_ON_FAILURE)",Chrome 106.0.0.0,,,2022-10-30 14:24:21,2022-10-30 14:24:21,0.673s,PASSED
+"callTestCase(findTestCase(""Pages/SearchCategory/Verify Content Semua""), [:], STOP_ON_FAILURE)",Chrome 106.0.0.0,,,2022-10-30 14:24:21,2022-10-30 14:24:23,1.103s,PASSED
+Start listener action : afterTestCase,Chrome 106.0.0.0,,,2022-10-30 14:24:23,2022-10-30 14:24:23,0.626s,PASSED
+,,,,,,,
+Test Cases/StepDefinition/Feature Search Category/SEARCHCATEGORY002 - SEARCH CATEGORY Hoby,Chrome 106.0.0.0,,,2022-10-30 14:24:23,2022-10-30 14:24:38,14.452s,PASSED
+Start listener action : beforeTestCase,Chrome 106.0.0.0,,,2022-10-30 14:24:23,2022-10-30 14:24:26,2.434s,PASSED
+"callTestCase(findTestCase(""StepDefinition/Feature Login/LOGIN001- Login With Valid Email and Password""), [:], STOP_ON_FAILURE)",Chrome 106.0.0.0,,,2022-10-30 14:24:26,2022-10-30 14:24:35,8.726s,PASSED
+"callTestCase(findTestCase(""Pages/SearchCategory/Category Hoby""), [:], STOP_ON_FAILURE)",Chrome 106.0.0.0,,,2022-10-30 14:24:35,2022-10-30 14:24:35,0.662s,PASSED
+"callTestCase(findTestCase(""Pages/SearchCategory/Verify Content Hoby""), [:], STOP_ON_FAILURE)",Chrome 106.0.0.0,,,2022-10-30 14:24:35,2022-10-30 14:24:37,1.652s,PASSED
+Start listener action : afterTestCase,Chrome 106.0.0.0,,,2022-10-30 14:24:37,2022-10-30 14:24:38,0.656s,PASSED
+,,,,,,,
+Test Cases/StepDefinition/Feature Search Category/SEARCHCATEGORY003 - SEARCH CATEGORY Kendaraan,Chrome 106.0.0.0,,,2022-10-30 14:24:38,2022-10-30 14:24:52,14.456s,PASSED
+Start listener action : beforeTestCase,Chrome 106.0.0.0,,,2022-10-30 14:24:38,2022-10-30 14:24:40,2.414s,PASSED
+"callTestCase(findTestCase(""StepDefinition/Feature Login/LOGIN001- Login With Valid Email and Password""), [:], STOP_ON_FAILURE)",Chrome 106.0.0.0,,,2022-10-30 14:24:40,2022-10-30 14:24:49,8.740s,PASSED
+"callTestCase(findTestCase(""Pages/SearchCategory/Category Kendaraan""), [:], STOP_ON_FAILURE)",Chrome 106.0.0.0,,,2022-10-30 14:24:49,2022-10-30 14:24:50,0.667s,PASSED
+"callTestCase(findTestCase(""Pages/SearchCategory/Verify Content Kendaraan""), [:], STOP_ON_FAILURE)",Chrome 106.0.0.0,,,2022-10-30 14:24:50,2022-10-30 14:24:51,1.694s,PASSED
+Start listener action : afterTestCase,Chrome 106.0.0.0,,,2022-10-30 14:24:51,2022-10-30 14:24:52,0.658s,PASSED
+,,,,,,,
+Test Cases/StepDefinition/Feature Search Category/SEARCHCATEGORY004 - SEARCH CATEGORY Baju,Chrome 106.0.0.0,,,2022-10-30 14:24:52,2022-10-30 14:25:07,14.544s,PASSED
+Start listener action : beforeTestCase,Chrome 106.0.0.0,,,2022-10-30 14:24:52,2022-10-30 14:24:55,2.617s,PASSED
+"callTestCase(findTestCase(""StepDefinition/Feature Login/LOGIN001- Login With Valid Email and Password""), [:], STOP_ON_FAILURE)",Chrome 106.0.0.0,,,2022-10-30 14:24:55,2022-10-30 14:25:04,8.901s,PASSED
+"callTestCase(findTestCase(""Pages/SearchCategory/Category Baju""), [:], STOP_ON_FAILURE)",Chrome 106.0.0.0,,,2022-10-30 14:25:04,2022-10-30 14:25:05,0.726s,PASSED
+"callTestCase(findTestCase(""Pages/SearchCategory/Verify Content Baju""), [:], STOP_ON_FAILURE)",Chrome 106.0.0.0,,,2022-10-30 14:25:05,2022-10-30 14:25:06,1.329s,PASSED
+Start listener action : afterTestCase,Chrome 106.0.0.0,,,2022-10-30 14:25:06,2022-10-30 14:25:07,0.654s,PASSED
+,,,,,,,
+Test Cases/StepDefinition/Feature Search Category/SEARCHCATEGORY005 - SEARCH CATEGORY Elektronik,Chrome 106.0.0.0,,,2022-10-30 14:25:07,2022-10-30 14:25:21,14.655s,PASSED
+Start listener action : beforeTestCase,Chrome 106.0.0.0,,,2022-10-30 14:25:07,2022-10-30 14:25:09,2.553s,PASSED
+"callTestCase(findTestCase(""StepDefinition/Feature Login/LOGIN001- Login With Valid Email and Password""), [:], STOP_ON_FAILURE)",Chrome 106.0.0.0,,,2022-10-30 14:25:09,2022-10-30 14:25:18,8.783s,PASSED
+"callTestCase(findTestCase(""Pages/SearchCategory/Category Elektronik""), [:], STOP_ON_FAILURE)",Chrome 106.0.0.0,,,2022-10-30 14:25:18,2022-10-30 14:25:19,0.721s,PASSED
+"callTestCase(findTestCase(""Pages/SearchCategory/Verify Content Elektronik""), [:], STOP_ON_FAILURE)",Chrome 106.0.0.0,,,2022-10-30 14:25:19,2022-10-30 14:25:21,1.647s,PASSED
+Start listener action : afterTestCase,Chrome 106.0.0.0,,,2022-10-30 14:25:21,2022-10-30 14:25:21,0.667s,PASSED
+,,,,,,,
+Test Cases/StepDefinition/Feature Search Category/SEARCHCATEGORY006 - SEARCH CATEGORY Kesehatan,Chrome 106.0.0.0,,,2022-10-30 14:25:21,2022-10-30 14:25:36,15.054s,PASSED
+Start listener action : beforeTestCase,Chrome 106.0.0.0,,,2022-10-30 14:25:21,2022-10-30 14:25:24,2.524s,PASSED
+"callTestCase(findTestCase(""StepDefinition/Feature Login/LOGIN001- Login With Valid Email and Password""), [:], STOP_ON_FAILURE)",Chrome 106.0.0.0,,,2022-10-30 14:25:24,2022-10-30 14:25:33,9.025s,PASSED
+"callTestCase(findTestCase(""Pages/SearchCategory/Category Kesehatan""), [:], STOP_ON_FAILURE)",Chrome 106.0.0.0,,,2022-10-30 14:25:33,2022-10-30 14:25:34,0.782s,PASSED
+"callTestCase(findTestCase(""Pages/SearchCategory/Verify Content Kesehatan""), [:], STOP_ON_FAILURE)",Chrome 106.0.0.0,,,2022-10-30 14:25:34,2022-10-30 14:25:36,1.689s,PASSED
+Start listener action : afterTestCase,Chrome 106.0.0.0,,,2022-10-30 14:25:36,2022-10-30 14:25:36,0.746s,PASSED
