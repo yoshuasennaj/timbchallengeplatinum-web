@@ -17,7 +17,5 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.clearText(findTestObject('Page_ProductInfo/input_NamaProduk'), FailureHandling.STOP_ON_FAILURE)
-
-WebUI.sendKeys(findTestObject('Page_ProductInfo/input_NamaProduk'), 'Mobil Tamiya Magnum Saber')
+WebUI.click(findTestObject('Page_DaftarJual/img_Terjual'))
 

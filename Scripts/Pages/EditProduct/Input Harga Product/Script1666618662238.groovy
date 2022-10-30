@@ -19,5 +19,5 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.clearText(findTestObject('Page_ProductInfo/input_HargaProduk'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.sendKeys(findTestObject('Page_ProductInfo/input_HargaProduk'), '120000')
+WebUI.sendKeys(findTestObject('Page_ProductInfo/input_HargaProduk'), '190000')
 
