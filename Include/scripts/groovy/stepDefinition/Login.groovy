@@ -48,14 +48,14 @@ public class Login {
 		WebUI.click(findTestObject('Page_Login/link_Masuk'))
 	}
 
-	@Then("User input valid email {string}")
-	public void user_input_valid_email(String email) {
-		WebUI.callTestCase(findTestCase('Pages/UserLogin/Input Email'), [('email') : 'binarqae1@gmail.com'], FailureHandling.STOP_ON_FAILURE)
+	@Then("User input email {string}")
+	public void user_input_email(String email) {
+		WebUI.callTestCase(findTestCase('Pages/UserLogin/Input Email'), [('email') : email], FailureHandling.STOP_ON_FAILURE)
 	}
 
-	@Then("User input valid password {string}")
-	public void user_input_valid_password(String password) {
-		WebUI.callTestCase(findTestCase('Pages/UserLogin/Input Password'), [('password') : 'students1234'], FailureHandling.STOP_ON_FAILURE)
+	@Then("User input password {string}")
+	public void user_input_password(String password) {
+		WebUI.callTestCase(findTestCase('Pages/UserLogin/Input Password'), [('password') : password], FailureHandling.STOP_ON_FAILURE)
 	}
 
 	@Then("User click on login button")
@@ -63,13 +63,21 @@ public class Login {
 		WebUI.callTestCase(findTestCase('Pages/UserLogin/Click login button'), [:], FailureHandling.STOP_ON_FAILURE)
 	}
 
-	@Then("User input invalid email {string}")
-	public void user_input_invalid_username(String email) {
-		WebUI.callTestCase(findTestCase('Pages/UserLogin/Input Email'), [('email') : 'binarqe1@gmail.com'], FailureHandling.STOP_ON_FAILURE)
+	@Then("Verify image on homepage")
+	public void verify_image_on_homepage() {
+		WebUI.callTestCase(findTestCase('Pages/UserLogin/Verify Content'), [:], FailureHandling.STOP_ON_FAILURE)
 	}
 
-	@Then("User input invalid password {string}")
-	public void user_input_invalid_password(String password) {
-		WebUI.callTestCase(findTestCase('Pages/UserLogin/Input Password'), [('password') : 'students123'], FailureHandling.STOP_ON_FAILURE)
+	@Then("Error message password will display")
+	public void error_message_password_will_display() {
+		WebUI.callTestCase(findTestCase('Pages/UserLogin/Error Message Wrong Password'), [:], FailureHandling.STOP_ON_FAILURE)
+	}
+
+	@Then("Error message email will display")
+	public void error_message_email_will_display() {
+		WebUI.callTestCase(findTestCase('Pages/UserLogin/Error Message Wrong Email or Not Registered'), [:], FailureHandling.STOP_ON_FAILURE)
+		WebUI.openBrowser('');
+		WebUI.maximizeWindow();
+		WebUI.navigateToUrl('https://deployed-five.vercel.app/')
 	}
 }

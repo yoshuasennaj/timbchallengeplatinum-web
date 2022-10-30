@@ -25,7 +25,13 @@ WebUI.callTestCase(findTestCase('Pages/Profile/click link profile'), [:], Failur
 
 WebUI.callTestCase(findTestCase('Pages/Profile/input Nama'), [('nama') : 'aaassss'], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('Pages/Profile/kota'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Pages/Profile/kota'), [('kota') : 'Bandung'], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('Pages/Profile/input Alamat'), [('alamat') : 'digidaw'], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('Pages/Profile/input Handphone'), [('handphone') : '12345678'], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('Pages/Profile/Button Submit'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.delay(7)
 

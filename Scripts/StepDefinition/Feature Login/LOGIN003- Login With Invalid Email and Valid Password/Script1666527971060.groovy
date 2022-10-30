@@ -19,11 +19,13 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('Pages/UserLogin/Click Link Masuk'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('Pages/UserLogin/Input Email'), [('email') : 'binarqe1@gmail.com'], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Pages/UserLogin/Input Email'), [('email') : 'binarqae@gmail.com'], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('Pages/UserLogin/Input Password'), [('password') : 'students1234'], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('Pages/UserLogin/Click login button'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.delay(5)
+
+WebUI.callTestCase(findTestCase('Pages/UserLogin/Error Message Wrong Email or Not Registered'), [:], FailureHandling.STOP_ON_FAILURE)
 

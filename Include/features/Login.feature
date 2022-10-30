@@ -5,29 +5,32 @@ Feature: Login
   @LOGIN001
   Scenario: LOGIN001 - User want to login with valid email and password
   	Then User click on button masuk
-    Then User input valid email "binarqae1@gmail.com"
-    Then User input valid password "students1234"
+    Then User input email "binarqae1@gmail.com"
+    Then User input password "students1234"
     Then User click on login button
+    And Verify image on homepage
 
 	@LOGIN002
   Scenario: LOGIN002 - User want to login with valid email and invalid password
     Then User click on button masuk
-    Then User input valid email "binarqae1@gmail.com"
-    Then User input invalid password "students123"
+    Then User input email "binarqae1@gmail.com"
+    Then User input password "students123"
     Then User click on login button
+    And Error message password will display
 
 	@LOGIN003
   Scenario: LOGIN003 - User want to login with invalid email and password
     Then User click on button masuk
-    Then User input invalid email "binarqe1@gmail.com"
-    Then User input valid password "students1234"
+    Then User input email "binarqe1@gmail.com"
+    Then User input password "students1234"
     Then User click on login button
+    And Error message email will display
 
 	@LOGIN004
   Scenario: LOGIN004 - User want to login with invalid email and invalid password
     Then User click on button masuk
-    Then User input valid email "binarqe1@gmail.com"
-    Then User input invalid password "students123"
+    Then User input email "binarqe1@gmail.com"
+    Then User input password "students123"
     Then User click on login button
 
 	@LOGIN005
