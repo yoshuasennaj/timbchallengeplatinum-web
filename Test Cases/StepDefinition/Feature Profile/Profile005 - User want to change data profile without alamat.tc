@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Profile005 - User want to change data profile without alamat</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b268cbe6-003a-47f0-a085-afa3b6c0527e</testCaseGuid>
+</TestCaseEntity>
