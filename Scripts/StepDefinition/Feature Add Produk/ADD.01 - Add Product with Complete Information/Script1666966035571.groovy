@@ -31,3 +31,5 @@ WebUI.callTestCase(findTestCase('Pages/AddProduct/Input Deskripsi'), [:], Failur
 
 WebUI.callTestCase(findTestCase('Pages/AddProduct/Upload Foto Produk'), [:], FailureHandling.STOP_ON_FAILURE)
 
+WebUI.callTestCase(findTestCase('Pages/AddProduct/Click Terbitkan'), [:], FailureHandling.STOP_ON_FAILURE)
+

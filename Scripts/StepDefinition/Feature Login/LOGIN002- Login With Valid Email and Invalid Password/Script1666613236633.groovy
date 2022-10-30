@@ -27,3 +27,5 @@ WebUI.callTestCase(findTestCase('Pages/UserLogin/Click login button'), [:], Fail
 
 WebUI.delay(5)
 
+WebUI.callTestCase(findTestCase('Pages/UserLogin/Error Message Wrong Password'), [:], FailureHandling.STOP_ON_FAILURE)
+

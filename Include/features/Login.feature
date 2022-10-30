@@ -8,6 +8,7 @@ Feature: Login
     Then User input valid email "binarqae1@gmail.com"
     Then User input valid password "students1234"
     Then User click on login button
+    And Verify image on homepage
 
 	@LOGIN002
   Scenario: LOGIN002 - User want to login with valid email and invalid password
@@ -15,6 +16,7 @@ Feature: Login
     Then User input valid email "binarqae1@gmail.com"
     Then User input invalid password "students123"
     Then User click on login button
+    And Error message password will display
 
 	@LOGIN003
   Scenario: LOGIN003 - User want to login with invalid email and password
@@ -22,6 +24,7 @@ Feature: Login
     Then User input invalid email "binarqe1@gmail.com"
     Then User input valid password "students1234"
     Then User click on login button
+    And Error message email will display
 
 	@LOGIN004
   Scenario: LOGIN004 - User want to login with invalid email and invalid password

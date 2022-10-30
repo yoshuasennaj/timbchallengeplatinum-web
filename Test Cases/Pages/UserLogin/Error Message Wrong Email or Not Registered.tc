@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Error Message Wrong Email or Not Registered</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b0d2d56d-601d-467c-ad02-d3bb2621132d</testCaseGuid>
+</TestCaseEntity>
