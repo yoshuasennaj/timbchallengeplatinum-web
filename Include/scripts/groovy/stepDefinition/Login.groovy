@@ -48,29 +48,19 @@ public class Login {
 		WebUI.click(findTestObject('Page_Login/link_Masuk'))
 	}
 
-	@Then("User input valid email {string}")
-	public void user_input_valid_email(String email) {
+	@Then("User input email {string}")
+	public void user_input_email(String email) {
 		WebUI.callTestCase(findTestCase('Pages/UserLogin/Input Email'), [('email') : email], FailureHandling.STOP_ON_FAILURE)
 	}
 
-	@Then("User input valid password {string}")
-	public void user_input_valid_password(String password) {
+	@Then("User input password {string}")
+	public void user_input_password(String password) {
 		WebUI.callTestCase(findTestCase('Pages/UserLogin/Input Password'), [('password') : password], FailureHandling.STOP_ON_FAILURE)
 	}
 
 	@Then("User click on login button")
 	public void user_click_on_login_button() {
 		WebUI.callTestCase(findTestCase('Pages/UserLogin/Click login button'), [:], FailureHandling.STOP_ON_FAILURE)
-	}
-
-	@Then("User input invalid email {string}")
-	public void user_input_invalid_username(String email) {
-		WebUI.callTestCase(findTestCase('Pages/UserLogin/Input Email'), [('email') : email], FailureHandling.STOP_ON_FAILURE)
-	}
-
-	@Then("User input invalid password {string}")
-	public void user_input_invalid_password(String password) {
-		WebUI.callTestCase(findTestCase('Pages/UserLogin/Input Password'), [('password') : password], FailureHandling.STOP_ON_FAILURE)
 	}
 
 	@Then("Verify image on homepage")
