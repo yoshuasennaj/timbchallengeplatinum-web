@@ -31,9 +31,9 @@ WebUI.callTestCase(findTestCase('Pages/SellHomepage/Input Deskripsi'), [:], Fail
 
 WebUI.callTestCase(findTestCase('Pages/SellHomepage/Upload Foto Produk'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('Pages/SellHomepage/Click Terbitkan'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Pages/SellHomepage/Click Preview'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.delay(5)
 
-WebUI.callTestCase(findTestCase('Pages/SellHomepage/Verify Terbitkan Produk'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Pages/SellHomepage/Verify Preview'), [:], FailureHandling.STOP_ON_FAILURE)
 
