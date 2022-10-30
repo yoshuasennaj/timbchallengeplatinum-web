@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>SELL004 - Seller add new product without Kategori</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>6b59ffc0-cea2-4121-b889-0ae2ca501c15</testCaseGuid>
+</TestCaseEntity>

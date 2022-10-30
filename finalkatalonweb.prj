@@ -6,7 +6,11 @@
    <UUID>dd907c96-0fdc-453c-815d-348e95b88e21</UUID>
    <migratedVersion>5.9.0</migratedVersion>
    <pageLoadTimeout>0</pageLoadTimeout>
+<<<<<<< HEAD
    <projectFileLocation>C:\Users\riswa\Katalon Studio\timbchallengeplatinum-web (1)\finalkatalonweb.prj</projectFileLocation>
+=======
+   <projectFileLocation>C:\Users\DELL\Katalon Studio\timbchallengeplatinum-web\finalkatalonweb.prj</projectFileLocation>
+>>>>>>> 18f8de43ce87a523b4d2ffeeee3145c748ec8f8e
    <sourceContent>
       <sourceFolderList>
          <sourceFolderConfiguration>

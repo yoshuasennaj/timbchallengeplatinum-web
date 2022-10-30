@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>upload_FotoProduk</name>
+   <tag></tag>
+   <elementGuidId>3cf05a41-4990-4c81-a298-6443bf69c327</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>id(&quot;root&quot;)/div[1]/div[@class=&quot;container&quot;]/div[@class=&quot;row mt-5&quot;]/form[@class=&quot;col-md-6&quot;]/div[@class=&quot;col-md mb-3&quot;]/svg[@class=&quot;bi bi-plus-square-dotted mt-2&quot;][count(. | //svg[@type = 'file']) = count(//svg[@type = 'file'])]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>svg.bi.bi-plus-square-dotted.mt-2</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Foto Produk'])[1]/following::*[name()='svg'][1]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>svg</value>
+      <webElementGuid>55470f5f-95f0-48d6-9c77-2258e4ceddfd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xmlns</name>
+      <type>Main</type>
+      <value>http://www.w3.org/2000/svg</value>
+      <webElementGuid>1f75edf7-552f-4531-af7e-ee03e23f81a7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>width</name>
+      <type>Main</type>
+      <value>80</value>
+      <webElementGuid>dac3fe66-970c-47ea-a634-a57baa2abf25</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>height</name>
+      <type>Main</type>
+      <value>80</value>
+      <webElementGuid>3b002c58-8b25-4819-bbc2-493450b6b265</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>fill</name>
+      <type>Main</type>
+      <value>currentColor</value>
+      <webElementGuid>c11affd9-5b47-47eb-afad-99ad87a587be</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>bi bi-plus-square-dotted mt-2</value>
+      <webElementGuid>048827fe-6101-42e9-bca3-577d98b82e81</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>viewBox</name>
+      <type>Main</type>
+      <value>0 0 16 16</value>
+      <webElementGuid>c22c151f-3161-4fe3-840d-d25e33ee351f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[1]/div[@class=&quot;container&quot;]/div[@class=&quot;row mt-5&quot;]/form[@class=&quot;col-md-6&quot;]/div[@class=&quot;col-md mb-3&quot;]/svg[@class=&quot;bi bi-plus-square-dotted mt-2&quot;]</value>
+      <webElementGuid>dcd4a842-7be4-44a5-88ea-6362e2a08167</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>file</value>
+      <webElementGuid>4c6dde8f-2c61-4b59-8b92-96365a9722fc</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Foto Produk'])[1]/following::*[name()='svg'][1]</value>
+      <webElementGuid>4db463ff-1d91-48a2-8f25-90be1e159c15</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Deskripsi'])[1]/following::*[name()='svg'][1]</value>
+      <webElementGuid>61777f19-6936-4efd-a0fd-4402cc429efa</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Preview'])[1]/preceding::*[name()='svg'][1]</value>
+      <webElementGuid>2a1d2e27-eeff-4a9a-88a8-209585662f5c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Terbitkan'])[1]/preceding::*[name()='svg'][1]</value>
+      <webElementGuid>45591812-f5e9-404e-8973-438fae3f151e</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
