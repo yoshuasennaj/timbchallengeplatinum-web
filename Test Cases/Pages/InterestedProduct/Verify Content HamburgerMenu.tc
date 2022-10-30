@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Click Interesting Product Card</name>
+   <name>Verify Content HamburgerMenu</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>64c89dad-6ecf-437b-8392-a39819a22a34</testCaseGuid>
+   <testCaseGuid>09ca4732-fe54-4e96-b317-bc44c1d0ae67</testCaseGuid>
 </TestCaseEntity>

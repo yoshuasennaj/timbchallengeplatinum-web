@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Click Product Diminati</name>
+   <name>Verify Content Interested Product Detail</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>ab005809-c6f6-4eb4-8bb1-7830e6b951d5</testCaseGuid>
+   <testCaseGuid>d59f2320-5926-4215-a258-4db1cf0711fa</testCaseGuid>
 </TestCaseEntity>
