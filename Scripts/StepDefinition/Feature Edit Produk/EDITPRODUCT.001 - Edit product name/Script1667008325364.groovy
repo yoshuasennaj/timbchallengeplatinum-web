@@ -21,3 +21,13 @@ WebUI.callTestCase(findTestCase('StepDefinition/Feature Login/LOGIN001- Login Wi
 
 WebUI.callTestCase(findTestCase('Pages/AddProduct/Click Icon Daftar Jual'), [:], FailureHandling.STOP_ON_FAILURE)
 
+WebUI.callTestCase(findTestCase('Pages/DaftarJual/click product'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('Pages/ProductPage(ID)/Click Edit Button'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.delay(3)
+
+WebUI.callTestCase(findTestCase('Pages/EditProduct/Input Nama Produk'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.delay(5)
+

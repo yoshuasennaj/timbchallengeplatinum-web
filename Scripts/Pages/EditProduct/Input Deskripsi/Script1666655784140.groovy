@@ -19,5 +19,5 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.clearText(findTestObject('Page_ProductInfo/textarea_Deskripsi'))
 
-WebUI.sendKeys(findTestObject('Page_ProductInfo/textarea_Deskripsi'), 'baru')
+WebUI.sendKeys(findTestObject('Page_ProductInfo/textarea_Deskripsi'), 'satu dus isi 24 pack')
 

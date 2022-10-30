@@ -19,5 +19,5 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.click(findTestObject('Page_ProductInfo/select_PilihKategori'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.scrollToElement(findTestObject('Page_ProductInfo/select_PilihKategori'), 0)
+WebUI.scrollToElement(findTestObject('Page_ProductInfo/select_PilihKategori'), 6)
 

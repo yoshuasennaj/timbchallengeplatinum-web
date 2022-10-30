@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>img_gambarproduk</name>
+   <tag></tag>
+   <elementGuidId>9b76ef78-fd1c-44da-ac37-ce963c2c6dd6</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div/div/div/div[2]/div/div[2]/div/img</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>img.d-block.w-100.h-100</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>img</value>
+      <webElementGuid>ff6642b4-0af2-43e8-a158-8e8d8d3c663f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>src</name>
+      <type>Main</type>
+      <value>https://secondhand-be-kelompok2.herokuapp.com/undefined</value>
+      <webElementGuid>94a232da-82a9-4b3d-92c5-c99e5262924d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>d-block w-100 h-100</value>
+      <webElementGuid>ab0d5ea4-cf1a-4a60-ac37-f2b6ad028925</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>alt</name>
+      <type>Main</type>
+      <value>Gambar produk</value>
+      <webElementGuid>4e35cf5f-f641-4378-98b0-5507ad4a33fc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[1]/div[@class=&quot;container pb-5&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-md-6&quot;]/div[@class=&quot;carousel slide carousel-fade&quot;]/div[@class=&quot;carousel-inner&quot;]/div[@class=&quot;active carousel-item&quot;]/img[@class=&quot;d-block w-100 h-100&quot;]</value>
+      <webElementGuid>73536437-e64b-4bad-8212-57bb4a6c8365</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div/div/div[2]/div/div[2]/div/img</value>
+      <webElementGuid>6251e98c-cd80-43a5-b377-bfb0a5a1e136</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:img</name>
+      <type>Main</type>
+      <value>//img[@alt='Gambar produk']</value>
+      <webElementGuid>366b49b0-84e7-472f-8536-1d69093967bb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//img</value>
+      <webElementGuid>31dcee13-1587-4ebd-9a82-6e25c64cd5d7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//img[@src = 'https://secondhand-be-kelompok2.herokuapp.com/undefined' and @alt = 'Gambar produk']</value>
+      <webElementGuid>defa83ed-4e05-413d-b267-0ab5ba59fc98</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
