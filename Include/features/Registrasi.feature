@@ -13,7 +13,6 @@ Feature: Registrasi
 	Scenario: REGIS002 - User want to register without nama
 		Then User click link masuk
 		Then User click link daftar disini
-		Then User click nama without input
 		Then User input email "agengjobb@gmail.com"
 		Then User input password "Cobain23"
 		Then User click button daftar
