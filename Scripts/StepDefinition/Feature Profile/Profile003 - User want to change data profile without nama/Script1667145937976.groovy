@@ -27,8 +27,6 @@ WebUI.callTestCase(findTestCase('Pages/Profile/upload File'), [:], FailureHandli
 
 WebUI.callTestCase(findTestCase('Pages/Profile/button apply'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('Pages/Profile/input Nama'), [('nama') : 'FadhilKun'], FailureHandling.STOP_ON_FAILURE)
-
 WebUI.callTestCase(findTestCase('Pages/Profile/kota'), [('kota') : 'Bandung'], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('Pages/Profile/input Alamat'), [('alamat') : 'digidaw'], FailureHandling.STOP_ON_FAILURE)

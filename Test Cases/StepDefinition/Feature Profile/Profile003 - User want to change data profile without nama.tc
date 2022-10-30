@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Profile003 - User want to change data profile without nama</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>56fc63b9-d501-4b78-994a-1237b1e8cd02</testCaseGuid>
+</TestCaseEntity>

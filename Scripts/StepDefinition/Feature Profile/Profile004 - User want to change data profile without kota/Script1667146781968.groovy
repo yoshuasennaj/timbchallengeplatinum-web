@@ -23,10 +23,6 @@ WebUI.callTestCase(findTestCase('Pages/Profile/click btn profile'), [:], Failure
 
 WebUI.callTestCase(findTestCase('Pages/Profile/click link profile'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('Pages/Profile/upload File'), [:], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.callTestCase(findTestCase('Pages/Profile/button apply'), [:], FailureHandling.STOP_ON_FAILURE)
-
 WebUI.callTestCase(findTestCase('Pages/Profile/input Nama'), [('nama') : 'FadhilKun'], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('Pages/Profile/kota'), [('kota') : 'Bandung'], FailureHandling.STOP_ON_FAILURE)

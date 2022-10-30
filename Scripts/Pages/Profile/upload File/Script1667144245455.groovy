@@ -17,25 +17,5 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('StepDefinition/Feature Login/LOGIN001- Login With Valid Email and Password'), [:], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.callTestCase(findTestCase('Pages/Profile/click btn profile'), [:], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.callTestCase(findTestCase('Pages/Profile/click link profile'), [:], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.callTestCase(findTestCase('Pages/Profile/upload File'), [:], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.callTestCase(findTestCase('Pages/Profile/button apply'), [:], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.callTestCase(findTestCase('Pages/Profile/input Nama'), [('nama') : 'FadhilKun'], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.callTestCase(findTestCase('Pages/Profile/kota'), [('kota') : 'Bandung'], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.callTestCase(findTestCase('Pages/Profile/input Alamat'), [('alamat') : 'digidaw'], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.callTestCase(findTestCase('Pages/Profile/input Handphone'), [('handphone') : '12345678'], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.callTestCase(findTestCase('Pages/Profile/Button Submit'), [:], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.delay(7)
+WebUI.uploadFile(findTestObject('Page_Profile/upload_file'), 'C:\\Users\\Ageng\\Documents\\gambarnih\\uploadfile.jpg')
 
