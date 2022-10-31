@@ -45,14 +45,19 @@ import cucumber.api.java.en.When
 
 
 class Negotiate {
-	@Given("User on home page")
-	public void user_on_home_page()	{
-		WebUI.navigateToUrl('https://deployed-five.vercel.app/login')
-		WebUI.callTestCase(findTestCase('Pages/UserLogin/Input Email'), [('email') : 'binarqae1@gmail.com'], FailureHandling.STOP_ON_FAILURE)
-		WebUI.callTestCase(findTestCase('Pages/UserLogin/Input Password'), [('password') : 'students1234'], FailureHandling.STOP_ON_FAILURE)
-		WebUI.callTestCase(findTestCase('Pages/UserLogin/Click login button'), [:], FailureHandling.STOP_ON_FAILURE)
-	}
+	//@Given("User on home page")
+	//public void user_on_home_page()	{
+		//WebUI.navigateToUrl('https://deployed-five.vercel.app/login')
+		//WebUI.callTestCase(findTestCase('Pages/UserLogin/Input Email'), [('email') : 'binarqae1@gmail.com'], FailureHandling.STOP_ON_FAILURE)
+		//WebUI.callTestCase(findTestCase('Pages/UserLogin/Input Password'), [('password') : 'students1234'], FailureHandling.STOP_ON_FAILURE)
+		//WebUI.callTestCase(findTestCase('Pages/UserLogin/Click login button'), [:], FailureHandling.STOP_ON_FAILURE)
+	//}
 
+	@Then("User click home page")
+	public void user_click_home_page() {
+		WebUI.callTestCase(findTestCase('Pages/Negotiate/Click Home'), [:], FailureHandling.STOP_ON_FAILURE)
+	}
+	
 	@Then("User click product raket badminton")
 	public void user_click_product_raket_badminton() {
 		WebUI.callTestCase(findTestCase('Pages/Negotiate/Click Product'), [:], FailureHandling.STOP_ON_FAILURE)
@@ -64,17 +69,17 @@ class Negotiate {
 	}
 
 	@Then("User input correct price {int}")
-	public void user_input_correct_price(Integer harga) {
+	public void user_input_correct_price(Integer string) {
 		WebUI.callTestCase(findTestCase('Pages/Negotiate/Input Harga'), [('harga') : '30000'], FailureHandling.STOP_ON_FAILURE)
 	}
 
 	@Then("User input incorrect price above {int}")
-	public void user_input_incorrect_price_above(Integer harga) {
+	public void user_input_incorrect_price_above(Integer string) {
 		WebUI.callTestCase(findTestCase('Pages/Negotiate/Input Harga'), [('harga') : '50000'], FailureHandling.STOP_ON_FAILURE)
 	}
 
 	@Then("User input incorrect price below {int}")
-	public void user_input_incorrect_price_below(Integer harga) {
+	public void user_input_incorrect_price_below(Integer string) {
 		WebUI.callTestCase(findTestCase('Pages/Negotiate/Input Harga'), [('harga') : '999'], FailureHandling.STOP_ON_FAILURE)
 	}
 
@@ -82,5 +87,10 @@ class Negotiate {
 	public void user_click_kirim_button() {
 		WebUI.callTestCase(findTestCase('Pages/Negotiate/Click Kirim'), [:], FailureHandling.STOP_ON_FAILURE)
 		WebUI.delay(5)
+	}
+	
+	@Then("User click x button")
+	public void user_click_x_button() {
+		WebUI.callTestCase(findTestCase('Pages/Negotiate/Click x Button'), [:], FailureHandling.STOP_ON_FAILURE)
 	}
 }
