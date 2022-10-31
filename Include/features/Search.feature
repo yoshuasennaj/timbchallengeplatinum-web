@@ -1,6 +1,6 @@
 @Search @Smoke
 Feature: Search
-
+// Fadhil
 	@SEARCHCATEGORY001
 	Scenario: SEARCHCATEGORY001 - SEARCH CATEGORY Semua
 		Then User click semua button

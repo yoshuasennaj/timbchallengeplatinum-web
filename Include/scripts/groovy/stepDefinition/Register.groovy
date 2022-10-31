@@ -43,7 +43,7 @@ import cucumber.api.java.en.Then
 import cucumber.api.java.en.When
 
 
-
+// Ageng
 class Register {
 	@Then("User click link masuk")
 	public void user_click_link_masuk() {
@@ -59,15 +59,15 @@ class Register {
 	public void user_input_nama(String string) {
 		WebUI.callTestCase(findTestCase('Pages/UserRegister/Input Nama'), [('nama') : 'ageng'], FailureHandling.STOP_ON_FAILURE)
 	}
-	
+
 	@Then("User input email registered {string}")
 	public void user_input_email_registered(String string) {
-	WebUI.callTestCase(findTestCase('Pages/UserRegister/Input Email'), [('email') : 'agengjobb@gmail.com'], FailureHandling.STOP_ON_FAILURE)
+		WebUI.callTestCase(findTestCase('Pages/UserRegister/Input Email'), [('email') : 'agengjobb@gmail.com'], FailureHandling.STOP_ON_FAILURE)
 	}
 
 	@Then("User input password registered {string}")
 	public void user_input_password_registered(String string) {
-	WebUI.callTestCase(findTestCase('Pages/UserRegister/Input Password'), [('password') : 'Cobain23'], FailureHandling.STOP_ON_FAILURE)
+		WebUI.callTestCase(findTestCase('Pages/UserRegister/Input Password'), [('password') : 'Cobain23'], FailureHandling.STOP_ON_FAILURE)
 	}
 
 	@Then("User click button daftar")
