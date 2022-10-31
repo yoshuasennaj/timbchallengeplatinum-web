@@ -21,7 +21,7 @@ WebUI.callTestCase(findTestCase('Pages/UserRegister/Click Link Masuk'), [:], Fai
 
 WebUI.callTestCase(findTestCase('Pages/UserRegister/Click Link Daftar di sini'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('Pages/UserRegister/Input Nama'), [('nama') : 'alwi kontol'], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Pages/UserRegister/Input Nama'), [('nama') : 'alwi kun'], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('Pages/UserRegister/Click btn Daftar'), [:], FailureHandling.STOP_ON_FAILURE)
 
