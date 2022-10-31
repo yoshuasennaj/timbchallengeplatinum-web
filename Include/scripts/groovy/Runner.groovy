@@ -24,9 +24,9 @@ import cucumber.api.junit.Cucumber;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-features = "Include/features/",
+features = "Include/features/Register.feature",
 glue = "stepDefinition",
-tags = "@LOGIN001, @LOGIN002, @LOGIN003, @LOGIN004, @LOGIN005",
+tags = "",
 monochrome = true,
 plugin = "html:Reports/Cucumber"
 )
