@@ -55,20 +55,20 @@ class Register {
 		WebUI.callTestCase(findTestCase('Pages/UserRegister/Click Link Daftar di sini'), [:], FailureHandling.STOP_ON_FAILURE)
 	}
 
-		@Then("User input nama {string}")
-		public void user_input_nama(String string) {
-			WebUI.callTestCase(findTestCase('Pages/UserRegister/Input Nama'), [('nama') : 'ageng'], FailureHandling.STOP_ON_FAILURE)
-		}
-	//
-	//	@Then("User input email {string}")
-	//	public void user_input_email(String string) {
-	//		WebUI.callTestCase(findTestCase('Pages/UserRegister/Input Email'), [('email') : 'agengjobb@gmail.com'], FailureHandling.STOP_ON_FAILURE)
-	//	}
+	@Then("User input nama registered {string}")
+	public void user_input_nama(String string) {
+		WebUI.callTestCase(findTestCase('Pages/UserRegister/Input Nama'), [('nama') : 'ageng'], FailureHandling.STOP_ON_FAILURE)
+	}
+	
+	@Then("User input email registered {string}")
+	public void user_input_email_registered(String string) {
+	WebUI.callTestCase(findTestCase('Pages/UserRegister/Input Email'), [('email') : 'agengjobb@gmail.com'], FailureHandling.STOP_ON_FAILURE)
+	}
 
-//	@Then("User input password {string}")
-//	public void user_input_password(String string) {
-//		WebUI.callTestCase(findTestCase('Pages/UserRegister/Input Password'), [('password') : 'Cobain23'], FailureHandling.STOP_ON_FAILURE)
-//	}
+	@Then("User input password registered {string}")
+	public void user_input_password_registered(String string) {
+	WebUI.callTestCase(findTestCase('Pages/UserRegister/Input Password'), [('password') : 'Cobain23'], FailureHandling.STOP_ON_FAILURE)
+	}
 
 	@Then("User click button daftar")
 	public void user_click_button_daftar() {
