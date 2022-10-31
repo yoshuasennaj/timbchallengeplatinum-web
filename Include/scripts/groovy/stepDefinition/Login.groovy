@@ -68,6 +68,16 @@ public class Login {
 		WebUI.callTestCase(findTestCase('Pages/UserLogin/Verify Content'), [:], FailureHandling.STOP_ON_FAILURE)
 	}
 
+	@Then("User click profile menu")
+	public void user_click_profile_menu() {
+		WebUI.callTestCase(findTestCase('Pages/Logout/Click My Account Logo'), [:], FailureHandling.STOP_ON_FAILURE)
+	}
+
+	@Then("User click Logout")
+	public void user_click_logout() {
+		WebUI.callTestCase(findTestCase('Pages/Logout/Click Logout'), [:], FailureHandling.STOP_ON_FAILURE)
+	}
+
 	@Then("Error message password will display")
 	public void error_message_password_will_display() {
 		WebUI.callTestCase(findTestCase('Pages/UserLogin/Error Message Wrong Password'), [:], FailureHandling.STOP_ON_FAILURE)
