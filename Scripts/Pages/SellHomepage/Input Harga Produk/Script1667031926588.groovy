@@ -19,5 +19,5 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.click(findTestObject('Page_SellHomepage/input_HargaProduk'))
 
-WebUI.sendKeys(findTestObject('Page_SellHomepage/input_HargaProduk'), '200000')
+WebUI.sendKeys(findTestObject('Page_SellHomepage/input_HargaProduk'), HargaProduk)
 

@@ -17,7 +17,22 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.click(findTestObject('Page_SellHomepage/textArea_Deskripsi'))
+WebUI.callTestCase(findTestCase('Pages/SellHomepage/Login Seller/Login Seller1'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.sendKeys(findTestObject('Page_SellHomepage/textArea_Deskripsi'), Deskripsi)
+WebUI.callTestCase(findTestCase('Pages/SellHomepage/Click Sell New Product'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('Pages/SellHomepage/Input Nama Produk'), [('NamaProduk') : 'Tamiya Magnum Saber'], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('Pages/SellHomepage/Input Harga Produk'), [('HargaProduk') : '200000'], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('Pages/SellHomepage/Select Kategori'), [('Kategori') : 'Hoby'], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('Pages/SellHomepage/Input Deskripsi'), [('Deskripsi') : 'Tamiya ori, 99% mulus like new'], 
+    FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('Pages/SellHomepage/Click Terbitkan'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.delay(2)
+
+WebUI.callTestCase(findTestCase('Pages/SellHomepage/Verify Error Message'), [:], FailureHandling.STOP_ON_FAILURE)
 

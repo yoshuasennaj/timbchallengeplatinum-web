@@ -21,11 +21,12 @@ WebUI.callTestCase(findTestCase('Pages/SellHomepage/Login Seller/Login Seller1')
 
 WebUI.callTestCase(findTestCase('Pages/SellHomepage/Click Sell New Product'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('Pages/SellHomepage/Input Nama Produk'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Pages/SellHomepage/Input Nama Produk'), [('NamaProduk') : 'Tamiya Magnum Saber'], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('Pages/SellHomepage/Select Kategori'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Pages/SellHomepage/Select Kategori'), [('Kategori') : 'Hoby'], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('Pages/SellHomepage/Input Deskripsi'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Pages/SellHomepage/Input Deskripsi'), [('Deskripsi') : 'Tamiya ori, 99% mulus like new'], 
+    FailureHandling.STOP_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('Pages/SellHomepage/Upload Foto Produk'), [:], FailureHandling.STOP_ON_FAILURE)
 

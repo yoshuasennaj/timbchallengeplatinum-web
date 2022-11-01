@@ -17,5 +17,5 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.selectOptionByLabel(findTestObject('Page_SellHomepage/select_Kategori'), 'Hoby', false)
+WebUI.selectOptionByLabel(findTestObject('Page_SellHomepage/select_Kategori'), Kategori, false)
 

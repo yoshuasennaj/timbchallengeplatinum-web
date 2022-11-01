@@ -19,5 +19,5 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.click(findTestObject('Page_SellHomepage/input_NamaProduk'))
 
-WebUI.sendKeys(findTestObject('Page_SellHomepage/input_NamaProduk'), 'Tamiya Magnum Saber')
+WebUI.sendKeys(findTestObject('Page_SellHomepage/input_NamaProduk'), NamaProduk)
 
