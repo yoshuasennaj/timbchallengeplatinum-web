@@ -21,7 +21,7 @@ WebUI.callTestCase(findTestCase('Pages/UserLogin/Click Link Masuk'), [:], Failur
 
 WebUI.callTestCase(findTestCase('Pages/UserLogin/Input Email'), [('email') : 'binarqae1@gmail.com'], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('Pages/UserLogin/Input Password'), [('password') : 'students123'], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Pages/UserLogin/Input Password'), [('password') : 'students1234'], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('Pages/UserLogin/Click login button'), [:], FailureHandling.STOP_ON_FAILURE)
 
