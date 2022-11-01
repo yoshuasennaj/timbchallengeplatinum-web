@@ -94,9 +94,9 @@ public void user_verify_new_product(String NewProduct) {
 	WebUI.navigateToUrl('https://deployed-five.vercel.app/');
 }
 
-@Then("User failed to publish new product")
-public void user_failed_to_publish_new_product() {
-	WebUI.callTestCase(findTestCase('Pages/SellHomepage/Verify Failed to Publish'), [:], FailureHandling.STOP_ON_FAILURE);
+@Then("User failed to publish {string}")
+public void user_failed_to_publish(String NewProduct) {
+	WebUI.callTestCase(findTestCase('Pages/SellHomepage/Verify Failed to Publish'), [('NewProduct') : NewProduct], FailureHandling.STOP_ON_FAILURE);
 	WebUI.closeBrowser();
 	WebUI.openBrowser('');
 	WebUI.maximizeWindow();

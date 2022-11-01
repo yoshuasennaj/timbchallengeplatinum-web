@@ -21,12 +21,11 @@ WebUI.callTestCase(findTestCase('Pages/SellHomepage/Login Seller/Login Seller1')
 
 WebUI.callTestCase(findTestCase('Pages/SellHomepage/Click Sell New Product'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('Pages/SellHomepage/Input Nama Produk'), [('NamaProduk') : 'Tamiya Magnum Saber'], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Pages/SellHomepage/Input Nama Produk'), [('NamaProduk') : 'TV SONY 65 inch'], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('Pages/SellHomepage/Input Harga Produk'), [('HargaProduk') : '200000'], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Pages/SellHomepage/Input Harga Produk'), [('HargaProduk') : '7000000'], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('Pages/SellHomepage/Input Deskripsi'), [('Deskripsi') : 'Tamiya ori, 99% mulus like new'], 
-    FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Pages/SellHomepage/Input Deskripsi'), [('Deskripsi') : 'LED TV'], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('Pages/SellHomepage/Upload Foto Produk'), [:], FailureHandling.STOP_ON_FAILURE)
 
@@ -34,5 +33,5 @@ WebUI.callTestCase(findTestCase('Pages/SellHomepage/Click Terbitkan'), [:], Fail
 
 WebUI.delay(2)
 
-WebUI.callTestCase(findTestCase('Pages/SellHomepage/Verify Failed to Publish'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Pages/SellHomepage/Verify Failed to Publish'), [('NewProduct') : 'TV SONY 65 inch'], FailureHandling.STOP_ON_FAILURE)
 
