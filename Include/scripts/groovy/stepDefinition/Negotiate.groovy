@@ -47,17 +47,17 @@ import cucumber.api.java.en.When
 class Negotiate {
 	//@Given("User on home page")
 	//public void user_on_home_page()	{
-		//WebUI.navigateToUrl('https://deployed-five.vercel.app/login')
-		//WebUI.callTestCase(findTestCase('Pages/UserLogin/Input Email'), [('email') : 'binarqae1@gmail.com'], FailureHandling.STOP_ON_FAILURE)
-		//WebUI.callTestCase(findTestCase('Pages/UserLogin/Input Password'), [('password') : 'students1234'], FailureHandling.STOP_ON_FAILURE)
-		//WebUI.callTestCase(findTestCase('Pages/UserLogin/Click login button'), [:], FailureHandling.STOP_ON_FAILURE)
+	//WebUI.navigateToUrl('https://deployed-five.vercel.app/login')
+	//WebUI.callTestCase(findTestCase('Pages/UserLogin/Input Email'), [('email') : 'binarqae1@gmail.com'], FailureHandling.STOP_ON_FAILURE)
+	//WebUI.callTestCase(findTestCase('Pages/UserLogin/Input Password'), [('password') : 'students1234'], FailureHandling.STOP_ON_FAILURE)
+	//WebUI.callTestCase(findTestCase('Pages/UserLogin/Click login button'), [:], FailureHandling.STOP_ON_FAILURE)
 	//}
 
 	@Then("User click home page")
 	public void user_click_home_page() {
 		WebUI.callTestCase(findTestCase('Pages/Negotiate/Click Home'), [:], FailureHandling.STOP_ON_FAILURE)
 	}
-	
+
 	@Then("User click product raket badminton")
 	public void user_click_product_raket_badminton() {
 		WebUI.callTestCase(findTestCase('Pages/Negotiate/Click Product'), [:], FailureHandling.STOP_ON_FAILURE)
@@ -88,7 +88,7 @@ class Negotiate {
 		WebUI.callTestCase(findTestCase('Pages/Negotiate/Click Kirim'), [:], FailureHandling.STOP_ON_FAILURE)
 		WebUI.delay(5)
 	}
-	
+
 	@Then("User click x button")
 	public void user_click_x_button() {
 		WebUI.callTestCase(findTestCase('Pages/Negotiate/Click x Button'), [:], FailureHandling.STOP_ON_FAILURE)
