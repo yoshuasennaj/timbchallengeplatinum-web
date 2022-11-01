@@ -17,19 +17,5 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('StepDefinition/Feature Login/LOGIN001- Login With Valid Email and Password'), [:], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.callTestCase(findTestCase('Pages/AddProduct/Click Icon Daftar Jual'), [:], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.callTestCase(findTestCase('Pages/DaftarJual/click product'), [:], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.callTestCase(findTestCase('Pages/ProductPage(ID)/Click Edit Button'), [:], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.delay(3)
-
-WebUI.callTestCase(findTestCase('Pages/EditProduct/Input Harga Product'), [:], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.delay(5)
-
-WebUI.callTestCase(findTestCase('Pages/EditProduct/Click Terbitkan'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('Page_ProductInfo/button_Terbitkan'))
 

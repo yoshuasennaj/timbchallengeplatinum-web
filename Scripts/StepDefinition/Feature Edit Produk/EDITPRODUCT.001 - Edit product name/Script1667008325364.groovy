@@ -31,3 +31,5 @@ WebUI.callTestCase(findTestCase('Pages/EditProduct/Input Nama Produk'), [:], Fai
 
 WebUI.delay(5)
 
+WebUI.callTestCase(findTestCase('Pages/EditProduct/Click Terbitkan'), [:], FailureHandling.STOP_ON_FAILURE)
+
