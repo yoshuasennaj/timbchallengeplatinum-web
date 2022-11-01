@@ -19,5 +19,5 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.click(findTestObject('Page_DaftarJual/icon_DaftarJual'))
 
-WebUI.verifyTextPresent('Tamiya Magnum Saber', false)
+WebUI.verifyTextPresent(NewProduct, false)
 

@@ -21,13 +21,13 @@ WebUI.callTestCase(findTestCase('Pages/SellHomepage/Login Seller/Login Seller1')
 
 WebUI.callTestCase(findTestCase('Pages/SellHomepage/Click Sell New Product'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('Pages/SellHomepage/Input Nama Produk'), [("NamaProduk") : 'Tamiya Magnum Saber'], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Pages/SellHomepage/Input Nama Produk'), [('NamaProduk') : 'Tamiya Magnum Saber'], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('Pages/SellHomepage/Input Harga Produk'), [("HargaProduk") : '200000'], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Pages/SellHomepage/Input Harga Produk'), [('HargaProduk') : '200000'], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('Pages/SellHomepage/Select Kategori'), [("Kategori") : 'Hoby'], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Pages/SellHomepage/Select Kategori'), [('Kategori') : 'Hoby'], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('Pages/SellHomepage/Input Deskripsi'), [("Deskripsi") : 'Tamiya ori, 99% mulus like new'], 
+WebUI.callTestCase(findTestCase('Pages/SellHomepage/Input Deskripsi'), [('Deskripsi') : 'Tamiya ori, 99% mulus like new'], 
     FailureHandling.STOP_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('Pages/SellHomepage/Upload Foto Produk'), [:], FailureHandling.STOP_ON_FAILURE)
@@ -36,5 +36,5 @@ WebUI.callTestCase(findTestCase('Pages/SellHomepage/Click Terbitkan'), [:], Fail
 
 WebUI.delay(5)
 
-WebUI.callTestCase(findTestCase('Pages/SellHomepage/Verify Terbitkan Produk'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Pages/SellHomepage/Verify New Product'), [("NewProduct") : 'Tamiya Magnum Saber'], FailureHandling.STOP_ON_FAILURE)
 
