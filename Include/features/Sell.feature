@@ -29,7 +29,7 @@ Feature: Sell
     Then User input Deskripsi "Tamiya ori"
     Then User upload Foto Produk
     Then User click Terbitkan
-    Then User see publication error message
+    Then User failed to publish new product
     
   @SELL003
   Scenario: SELL003 - Seller add new product without Harga Produk
@@ -43,7 +43,7 @@ Feature: Sell
     Then User input Deskripsi "Tamiya ori"
     Then User upload Foto Produk
     Then User click Terbitkan
-    Then User see publication error message
+    Then User failed to publish new product
     
   @SELL004
   Scenario: SELL004 - Seller add new product without Kategori
@@ -57,7 +57,7 @@ Feature: Sell
     Then User input Deskripsi "Tamiya ori"
     Then User upload Foto Produk
     Then User click Terbitkan
-    Then User see publication error message
+    Then User failed to publish new product
     
   @SELL005
   Scenario: SELL005 - Seller add new product without Foto Produk
@@ -71,4 +71,4 @@ Feature: Sell
     Then User select Kategori "Hoby"
     Then User input Deskripsi "Tamiya ori"
     Then User click Terbitkan
-    Then User see publication error message
+    Then User failed to publish new product

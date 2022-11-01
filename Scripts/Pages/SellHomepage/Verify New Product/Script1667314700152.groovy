@@ -19,5 +19,5 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.click(findTestObject('Page_DaftarJual/icon_DaftarJual'))
 
-WebUI.verifyElementVisible(findTestObject('Page_DetailProducts/product name'))
+WebUI.verifyTextPresent(NewProduct, false)
 

@@ -86,17 +86,17 @@ public void user_click_Preview() {
 }
 
 @Then("User verify new product {string}")
-public void user_verify_new_product(String NewProduk) {
-	WebUI.callTestCase(findTestCase('Pages/SellHomepage/Verify New Product'), [('NewProduk') : NewProduk], FailureHandling.STOP_ON_FAILURE);
+public void user_verify_new_product(String NewProduct) {
+	WebUI.callTestCase(findTestCase('Pages/SellHomepage/Verify New Product'), [('NewProduct') : NewProduct], FailureHandling.STOP_ON_FAILURE);
 	WebUI.closeBrowser();
 	WebUI.openBrowser('');
 	WebUI.maximizeWindow();
 	WebUI.navigateToUrl('https://deployed-five.vercel.app/');
 }
 
-@Then("User see publication error message")
-public void User_see_publication_error_message() {
-	WebUI.callTestCase(findTestCase('Pages/SellHomepage/Verify Error Message'), [:], FailureHandling.STOP_ON_FAILURE);
+@Then("User failed to publish new product")
+public void user_failed_to_publish_new_product() {
+	WebUI.callTestCase(findTestCase('Pages/SellHomepage/Verify Failed to Publish'), [:], FailureHandling.STOP_ON_FAILURE);
 	WebUI.closeBrowser();
 	WebUI.openBrowser('');
 	WebUI.maximizeWindow();

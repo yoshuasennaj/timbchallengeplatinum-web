@@ -36,5 +36,5 @@ WebUI.callTestCase(findTestCase('Pages/SellHomepage/Click Terbitkan'), [:], Fail
 
 WebUI.delay(5)
 
-WebUI.callTestCase(findTestCase('Pages/SellHomepage/Verify New Product'), [("NewProduct") : 'Tamiya Magnum Saber'], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Pages/SellHomepage/Verify New Product'), [('NewProduct') : 'Tamiya Magnum Saber'], FailureHandling.STOP_ON_FAILURE)
 

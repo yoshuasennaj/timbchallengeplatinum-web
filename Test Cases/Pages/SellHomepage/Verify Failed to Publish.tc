@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Verify Preview</name>
+   <name>Verify Failed to Publish</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>1937cd85-7a2d-4a9e-a0b5-90ce9398fb41</testCaseGuid>
+   <testCaseGuid>b30f2f2f-826c-4b49-bae5-b3e2cf625a13</testCaseGuid>
 </TestCaseEntity>

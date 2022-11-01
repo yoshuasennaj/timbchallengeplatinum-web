@@ -34,5 +34,5 @@ WebUI.callTestCase(findTestCase('Pages/SellHomepage/Click Terbitkan'), [:], Fail
 
 WebUI.delay(2)
 
-WebUI.callTestCase(findTestCase('Pages/SellHomepage/Verify Error Message'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Pages/SellHomepage/Verify Failed to Publish'), [:], FailureHandling.STOP_ON_FAILURE)
 
