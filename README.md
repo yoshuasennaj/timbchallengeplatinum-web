@@ -1,4 +1,4 @@
-# finalkatalonweb
+# Platinum Challenge
 This is our repository for Platinum Challenge Quality Assurance Bootcamp Binar Academy
 Our Team: 
 1. Fadhilah Alwi
