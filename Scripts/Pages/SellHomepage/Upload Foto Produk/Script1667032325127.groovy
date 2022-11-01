@@ -19,3 +19,7 @@ import org.openqa.selenium.Keys as Keys
 
 CustomKeywords.'file_upload.FileUpload.uploadFile'(findTestObject('Page_SellHomepage/upload_FotoProduk'), '"D:\\1.jpg" "D:\\2.jpg"')
 
+WebUI.delay(3)
+
+WebUI.switchToWindowTitle('Secondhand Store')
+

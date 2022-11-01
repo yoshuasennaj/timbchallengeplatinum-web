@@ -27,6 +27,7 @@ Feature: Sell
     Then User input Harga Produk "50000"
     Then User select Kategori "Baju"
     Then User input Deskripsi "Baju bekas"
+    Then User upload Foto Produk
     Then User click Terbitkan
     Then User failed to publish "Baju"
     
@@ -40,6 +41,7 @@ Feature: Sell
     Then User input Nama Produk "TV SONY 65 inch"
     Then User select Kategori "Elektronik"
     Then User input Deskripsi "LED TV"
+    Then User upload Foto Produk
     Then User click Terbitkan
     Then User failed to publish "TV SONY 65 inch"
     
@@ -53,6 +55,7 @@ Feature: Sell
     Then User input Nama Produk "Sepatu Nike"
     Then User input Harga Produk "1200000"
     Then User input Deskripsi "Sepatu basket mantap"
+    Then User upload Foto Produk
     Then User click Terbitkan
     Then User failed to publish "Sepatu Nike"
     

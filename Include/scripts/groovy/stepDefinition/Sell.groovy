@@ -70,7 +70,7 @@ public void user_input_Deskripsi(String Deskripsi) {
 
 @Then("User upload Foto Produk")
 public void user_upload_Foto_Produk() {
-	WebUI.callTestCase(findTestCase('Pages/SellHomepage/Upload Foto Produk'), [:], FailureHandling.STOP_ON_FAILURE);
+	WebUI.callTestCase(findTestCase('Pages/SellHomepage/Upload Foto Produk'), [:], FailureHandling.CONTINUE_ON_FAILURE);
 }
 
 @Then("User click Terbitkan")
