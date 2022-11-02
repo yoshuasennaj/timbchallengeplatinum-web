@@ -24,7 +24,7 @@ import cucumber.api.junit.Cucumber;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-features = "Include/features/AddProductbyDaftarJual.feature",
+features = "Include/features/",
 glue = "stepDefinition",
 tags = "",
 monochrome = true,
