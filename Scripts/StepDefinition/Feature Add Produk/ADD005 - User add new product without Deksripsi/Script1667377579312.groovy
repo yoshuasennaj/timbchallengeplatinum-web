@@ -29,9 +29,6 @@ WebUI.callTestCase(findTestCase('Pages/SellHomepage/Input Harga Produk'), [('Har
 
 WebUI.callTestCase(findTestCase('Pages/SellHomepage/Select Kategori'), [('Kategori') : 'Hoby'], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('Pages/SellHomepage/Input Deskripsi'), [('Deskripsi') : 'Mie Ayam terenak seindonesia raya'], 
-    FailureHandling.STOP_ON_FAILURE)
-
 WebUI.callTestCase(findTestCase('Pages/SellHomepage/Upload Foto Produk'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('Pages/SellHomepage/Click Terbitkan'), [:], FailureHandling.STOP_ON_FAILURE)

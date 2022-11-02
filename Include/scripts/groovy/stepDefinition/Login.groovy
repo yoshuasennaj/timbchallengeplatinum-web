@@ -43,6 +43,12 @@ import cucumber.api.java.en.Then
 import cucumber.api.java.en.When
 
 public class Login {
+	@Then("User back to Homepage")
+	public void user_back_to_Homepage() {
+		WebUI.navigateToUrl('https://deployed-five.vercel.app/');
+	}
+
+
 	@Then("User click on button masuk")
 	public void user_click_on_button_masuk() {
 		WebUI.click(findTestObject('Page_Login/link_Masuk'))
@@ -88,6 +94,5 @@ public class Login {
 		WebUI.callTestCase(findTestCase('Pages/UserLogin/Error Message Wrong Email or Not Registered'), [:], FailureHandling.STOP_ON_FAILURE)
 		WebUI.openBrowser('');
 		WebUI.maximizeWindow();
-		WebUI.navigateToUrl('https://deployed-five.vercel.app/')
 	}
 }
