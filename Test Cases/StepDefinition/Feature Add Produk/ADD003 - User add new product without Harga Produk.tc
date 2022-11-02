@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>ADD.02 - Add Product without Nama Produk</name>
+   <name>ADD003 - User add new product without Harga Produk</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>8f3362db-66a1-4a76-9e6c-42a5487f6a62</testCaseGuid>
+   <testCaseGuid>53ea450a-f869-4328-b418-8b9591edf4a2</testCaseGuid>
 </TestCaseEntity>

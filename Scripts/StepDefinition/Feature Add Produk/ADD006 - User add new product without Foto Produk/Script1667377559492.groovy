@@ -23,13 +23,17 @@ WebUI.callTestCase(findTestCase('Pages/AddProduct/Click Icon Daftar Jual'), [:],
 
 WebUI.callTestCase(findTestCase('Pages/AddProduct/Click Card Tambah Produk'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('Pages/AddProduct/Input Nama Produk'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Pages/SellHomepage/Input Nama Produk'), [('NamaProduk') : 'TV SONY 65 inch'], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('Pages/AddProduct/Choose Kategori'), [('value') : '2'], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Pages/SellHomepage/Input Harga Produk'), [('HargaProduk') : '7000000'], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('Pages/AddProduct/Input Deskripsi'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Pages/SellHomepage/Select Kategori'), [('Kategori') : 'Elektronik'], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('Pages/AddProduct/Upload Foto Produk'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Pages/SellHomepage/Input Deskripsi'), [('Deskripsi') : 'LED TV'], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('Pages/AddProduct/Click Terbitkan'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Pages/SellHomepage/Click Terbitkan'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.delay(2)
+
+WebUI.callTestCase(findTestCase('Pages/SellHomepage/Verify Failed to Publish'), [('NewProduct') : 'Elektronik'], FailureHandling.STOP_ON_FAILURE)
 

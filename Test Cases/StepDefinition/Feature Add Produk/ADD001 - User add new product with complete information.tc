@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>ADD001 - User add new product with complete information</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>dc824f80-0391-4809-a25d-fa1edbf74189</testCaseGuid>
+</TestCaseEntity>

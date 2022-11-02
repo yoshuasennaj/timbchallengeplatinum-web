@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>ADD005 - User add new product without Deksripsi</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ff861326-44eb-4d48-ac5f-82cceab83996</testCaseGuid>
+</TestCaseEntity>

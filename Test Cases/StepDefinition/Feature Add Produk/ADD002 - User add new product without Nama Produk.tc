@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>ADD002 - User add new product without Nama Produk</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b0eb70dc-3317-415e-8c74-5c9b0839bc06</testCaseGuid>
+</TestCaseEntity>
