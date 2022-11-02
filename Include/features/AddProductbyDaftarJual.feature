@@ -17,6 +17,8 @@ Feature: Add Product by Daftar Jual
     Then User input Deskripsi "Mie Ayam terenak se Indonesia raya"
     Then User upload Foto Produk
     And User click Terbitkan
+    Then User click profile menu
+    And User click Logout
     
   @ADD002
   Scenario: ADD002 - User add new product without Nama Produk
@@ -32,6 +34,8 @@ Feature: Add Product by Daftar Jual
     Then User input Deskripsi "Mie Ayam terenak se Indonesia raya"
     Then User upload Foto Produk
     And User click Terbitkan
+    Then User click profile menu
+    And User click Logout
     
   @ADD003
   Scenario: ADD003 - User add new product without Harga Produk
@@ -47,6 +51,8 @@ Feature: Add Product by Daftar Jual
     Then User input Deskripsi "Mie Ayam terenak se Indonesia raya"
     Then User upload Foto Produk
     And User click Terbitkan
+    Then User click profile menu
+    And User click Logout
     
   @ADD004
   Scenario: ADD004 - User add new product without Kategori
@@ -62,6 +68,8 @@ Feature: Add Product by Daftar Jual
     Then User input Deskripsi "Mie Ayam terenak se Indonesia raya"
     Then User upload Foto Produk
     And User click Terbitkan
+    Then User click profile menu
+    And User click Logout
     
   @ADD005
   Scenario: ADD005 - User add new product without Deskripsi
@@ -76,6 +84,8 @@ Feature: Add Product by Daftar Jual
     Then User input Harga Produk "300000"
     Then User upload Foto Produk
     And User click Terbitkan
+    Then User click profile menu
+    And User click Logout
     
        
   @ADD006

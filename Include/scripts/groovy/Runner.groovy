@@ -24,11 +24,12 @@ import cucumber.api.junit.Cucumber;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-features = "Include/features/Register.feature",
+features = "Include/features/AddProductbyDaftarJual.feature",
 glue = "stepDefinition",
 tags = "",
 monochrome = true,
-plugin = "html:Reports/Cucumber"
+plugin = "html:Reports/Cucumber/AddProduct"
 )
+
 public class Runner {
 }
